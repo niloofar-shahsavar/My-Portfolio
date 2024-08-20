@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+
+
+
+.LuxbitePage {
+    background-color: #f5f5f5;
+    padding: 100px;
+    margin: 200px;
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font: 20px "Outfit", sans-serif;
+    border: solid 2px #0E0670;
+    color: #0E0670;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .LuxbitePage {
+        margin-top: 50px;
+
+    }
+
+}

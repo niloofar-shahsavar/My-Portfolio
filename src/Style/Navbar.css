@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.navbar {
+  display: flex;
+  font-family: "Outfit", sans-serif;
+  color: #0e0670;
+  background: transparent; /* Make the background transparent */
+  position: fixed; /* Position the navbar fixed */
+  width: 100%; /* Ensure it spans the full width */
+  top: 0; /* Align it to the top */
+  z-index: 10; /* Ensure it is above other content */
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+
+.nav-button,
+.nav-button-up {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #0e0670;
+  text-align: center;
+  border-radius: 28px;
+  transition: background-color 0.3s ease;
+  width: 90px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-button {
+  border-bottom: solid 2px #0e0670;
+}
+
+.nav-button-up {
+  border-top: solid 2px #0e0670;
+}
+
+.nav-button-up:hover {
+  background-color: #0e0670;
+  color: white;
+  transition: 1s;
+}
+.nav-button:hover {
+  background-color: #0e0670;
+  color: white;
+  transition: 1s;
+}
+
+.logo {
+  display: flex;
+  width: 100px;
+  padding: 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar-button {
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-button,
+  .nav-button-up {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    border-radius: 10px;
+  }
+
+  .nav-button-up {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #0e0670;
+    border-bottom: 2px solid #0e0670;
+  }
+
+  .nav-button {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    border-top: 2px solid #0e0670;
+    border-bottom: 2px solid #0e0670;
+  }
+}
