@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import Luxbite from "./Pages/Luxbite";
 import Navbar from "./components/Navbar";
-import Project2 from "./Pages/Project2";
+import RandomStuff from "./Pages/RandomStuff";
 import Project3 from "./Pages/Project3";
 import Project4 from "./Pages/Project4";
 import "./Style/Navbar.css";
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/"element={<> <LandingPage /></>} />
         <Route path="/luxbite-project" element={<Luxbite />} />
-        <Route path="/project2" element={<Project2 />} />
+        <Route path="/randomStuff" element={<RandomStuff />} />
         <Route path="/project3" element={<Project3 />} />
         <Route path="/project4" element={<Project4 />} />
       </Routes>

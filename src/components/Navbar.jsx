@@ -25,11 +25,17 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
+  const smoothScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Adjust duration if needed
+    });
+  };
   return (
     <nav className='navbar' style={{ backgroundColor: navbarBackground }}>
       <div className='logo-div'>
-        <RouterLink to="/">
+        {/* Navigate to Landing Page and scroll to the top */}
+        <RouterLink to="/" onClick={smoothScrollToTop}>
           <img src={logo} alt="Logo" className="logo" />
         </RouterLink>
       </div>

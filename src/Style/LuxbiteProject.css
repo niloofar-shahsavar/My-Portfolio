@@ -1,25 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-
-
-
 .LuxbitePage {
+    font-family: "Outfit", sans-serif;
+    color: #0E0670;
     background-color: #f5f5f5;
-    padding: 100px;
-    margin: 200px;
-    margin-top: 200px;
+    padding: 40px;
+    margin: 40px auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font: 20px "Outfit", sans-serif;
-    border: solid 2px #0E0670;
-    color: #0E0670;
+    max-width: 900px;
     text-align: center;
+}
+
+.LuxbitePage h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.LuxbitePage a {
+    color: #0E0670;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.LuxbitePage a:hover {
+    text-decoration: underline;
+}
+
+.LuxbitePage img.luxbite-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 768px) {
     .LuxbitePage {
-        margin-top: 50px;
-
+        padding: 20px;
+        margin: 20px;
     }
 
+    .LuxbitePage h1 {
+        font-size: 28px;
+    }
+
+    .LuxbitePage img.luxbite-img {
+        max-width: 100%;
+    }
 }
