@@ -11,17 +11,19 @@ function Luxbite() {
     <div>
       <div className="LuxebitePage">
         <h1>LuxeBite</h1>
-        <a
-          href="https://www.figma.com/proto/0WcU52ESl9ufsiJr8cbURJ/VG-LuxeBite?node-id=0-1&t=yJ5YrCW6cVj5nVBw-1"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Visit the project in Figma
-        </a>
         <img className="luxbite-img" src={project1} alt="Luxbite Project" />
+        <p>
+          <a
+            href="https://www.figma.com/proto/0WcU52ESl9ufsiJr8cbURJ/VG-LuxeBite?node-id=0-1&t=yJ5YrCW6cVj5nVBw-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit the project in Figma
+          </a>
+        </p>
       </div>
       <div className="luxbite-description">
-        <h2>Project Description:</h2>
+        <h2>Description</h2>
         <div className="project-section">
           <h3>Vision</h3>
           <p>

@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import '../Style/WIP.css';
 
 const Project3 = () => {
   return (
-    <div>
-      Här kommer bilder för project 3
+    <div className='Project3'>
+      Work in progress…
     </div>
   )
 }

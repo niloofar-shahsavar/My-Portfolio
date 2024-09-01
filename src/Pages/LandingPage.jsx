@@ -87,19 +87,19 @@ const LandingPage = () => {
         <div className="aboutMe">
           <h2>About me</h2>
           <p>
-            Hi! I’m Niloo, a UX/UI designer based in Stockholm, Sweden. I’m
-            originally from Iran and my friends describe me as a kind, reliable
-            and hardworking team player. I am passionate about interaction, UX,
-            and human-centered design. I am a person who can absorb information
-            and knowledge quickly and I look to challenge myself by learning,
-            growing, and continously improving each day my technical skills and
-            knowledge through workshops and seminars. I see mistakes as
-            opportunities to learn and grow from. I am open to internships as
-            well as part-time and full-time junior positions in the UX/UI design
-            field.
+            Hi! I’m Niloo, a UX/UI designer based in Stockholm, Sweden.
+            Originally from Iran, I’m often described by friends as a kind,
+            reliable, and hardworking team player. My passion lies in
+            human-computer interaction, UX, and human-centered design. I have a
+            strong ability to quickly absorb new information and am constantly
+            seeking to challenge myself by learning and growing. I’m committed
+            to continuously improving my technical skills and knowledge through
+            workshops and seminars, viewing mistakes as valuable learning
+            opportunities. I’m currently open to internships, as well as
+            part-time and full-time junior positions in the UX/UI design field.
           </p>
           <RouterLink to="/about" className="about">
-            More about me
+            more
           </RouterLink>
         </div>
       </section>
