@@ -1,9 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
 import "../Style/LuxbiteProject.css";
 import project1 from "../assets/luxbite.png";
 
 function Luxbite() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <div className="LuxebitePage">
