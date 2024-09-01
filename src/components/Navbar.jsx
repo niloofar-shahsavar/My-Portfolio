@@ -41,7 +41,7 @@ const Navbar = () => {
       </div>
       <div className='navbar-button'>
         {isLandingPage ? (
-          <ScrollLink className='nav-button-up' to="section-work" smooth={true} duration={500}>
+          <ScrollLink className='nav-button-up' to="section-work" smooth={true} duration={500} offset={-150}>
             Projects
           </ScrollLink>
         ) : (
