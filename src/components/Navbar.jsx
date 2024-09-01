@@ -3,7 +3,7 @@ import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { HashLink as RouterHashLink } from 'react-router-hash-link';
 import { Link as ScrollLink } from 'react-scroll';
 import '../Style/Navbar.css';
-import logo from '../assets/Vector.png';
+import logo from '../assets/Logo3-niloo.png';
 
 const Navbar = () => {
   const location = useLocation();
@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
-        setNavbarBackground('#ffffff'); // Change to desired background color
+        setNavbarBackground('#ECE1FF'); // Change to desired background color
       } else {
         setNavbarBackground('transparent');
       }

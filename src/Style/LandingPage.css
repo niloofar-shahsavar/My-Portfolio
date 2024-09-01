@@ -1,117 +1,215 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 .LandingPage {
-    font: 20px "Outfit", sans-serif;
-    color: #0E0670;
-    background: linear-gradient(80deg, #d8f0ff, #fff1e6, #f4ecff);
-    background-size: 600% 600%;
-    animation: AnimationName 20s ease infinite;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 50px;
+  font: 20px "Outfit", sans-serif;
+  color: #0e0670;
+  background: linear-gradient(80deg, #ffe1ca, #ecdeff, #c5e6fa);
+  animation: AnimationName 15s ease infinite;
+  padding-top: 120px;
 }
 
-@keyframes AnimationName { 
-    0% { background-position: 0% 51%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 51%; }
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+
+.hero-section {
+  text-align: center;
+}
+
+.hero-text {
+  text-align: center;
+  padding: 20px;
 }
 
 .firstTitle {
-    font-size: 50px;
-    font-weight: 900;
-    margin-top: 100px;
-    margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
 }
 
 .secondTitle {
-    font-size: 30px;
-    font-weight: 200;
-    margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.thirdTitle {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
 }
 
 .landingPage-photo {
-    margin-top: 20px;
+  border-radius: 10px;
 }
 
-.photo1 {
-    width: 30%;
-    height: auto;
-    border-radius: 10px;
+.my-photo {
+  width: 20%;
+  border-radius: 10px;
 }
 
-.section {
-    width: 100%;
-    max-width: 1200px;
-    margin: 40px auto;
+.section-projects {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.arrow-icon {
+  width: 20px;
+  padding-top: 50px;
 }
 
 .luxbite-project {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .luxbite-img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.luxbite-title {
+  text-decoration: none;
 }
 
-.section-about, .section-cv, .section-contact {
-    background-color: #d8f0ff;
-    border: #0E0670 solid 2px;
-    padding: 30px;
-    margin: 20px auto;
-    border-radius: 10px;
+.random-stuff-project {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.random-stuff-title {
+  text-decoration: none;
+}
+
+.random-stuff-img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.myBlog-project {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fairyTailor-project {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.myBlog-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.myBlog-title {
+  text-decoration: none;
+}
+
+.fairyTailor-img {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 40px;
+  border: #0e0670 solid 2px;
+}
+
+.fairyTailor-title {
+  text-decoration: none;
+}
+
+.section-about {
+  text-align: left;
 }
 
 .aboutMe {
-    font-size: 18px;
-    font-weight: 200;
-    text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: left;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 100px;
 }
 
+.cv-div {
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cv-border-div {
+  border-radius: 10px;
+  border: #0e0670 solid 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .cv-img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 10px;
+  width: 20%;
+  max-width: 100%;
+  height: auto;
 }
 
 .contact {
-    font-size: 18px;
-    text-align: center;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 200px;
 }
 
-@media only screen and (max-width: 768px) {
-    .firstTitle {
-        font-size: 25px;
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
+.email-icon,
+.linkdin-icon {
+}
 
-    .secondTitle {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  .firstTitle {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
 
-    .photo1 {
-        width: 60%;
-    }
+  .secondTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
 
-    .luxbite-img, .cv-img {
-        width: 80%;
-    }
+  .photo1 {
+    width: 40%;
+  }
 
-    .section-about, .section-cv, .section-contact {
-        padding: 20px;
-        margin: 10px;
-    }
+  .luxbite-img,
+  .cv-img,
+  .fairyTailor-img,
+  .random-stuff-img,
+  .myBlog-img {
+    width: 30%;
+  }
 
-    .aboutMe {
-        font-size: 16px;
-    }
+  .section-projects {
+    display: block;
+  }
+
+  .section-about,
+  .section-cv,
+  .section-contact {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .aboutMe {
+    font-size: 16px;
+  }
 }

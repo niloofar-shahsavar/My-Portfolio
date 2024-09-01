@@ -1,52 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-.LuxbitePage {
-    font-family: "Outfit", sans-serif;
-    color: #0E0670;
-    background-color: #f5f5f5;
-    padding: 40px;
-    margin: 40px auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
-    text-align: center;
+.LuxebitePage {
+  font-family: "Outfit", sans-serif;
+  color: #0e0670;
+  background-color: #f5f5f5;
+  padding: 40px;
+  margin: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  text-align: center;
 }
 
 .LuxbitePage h1 {
-    font-size: 36px;
-    font-weight: 900;
-    margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 20px;
 }
 
 .LuxbitePage a {
-    color: #0E0670;
-    text-decoration: none;
-    font-weight: 500;
+  color: #0e0670;
+  font-weight: 500;
 }
 
 .LuxbitePage a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .LuxbitePage img.luxbite-img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.luxbite-description {
+  font-family: "Outfit", sans-serif;
+  color: #0e0670;
+  background-color: #f5f5f5;
+  padding: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  text-align: left;
 }
 
 @media only screen and (max-width: 768px) {
-    .LuxbitePage {
-        padding: 20px;
-        margin: 20px;
-    }
+  .LuxbitePage {
+    padding: 20px;
+    margin: 20px;
+  }
 
-    .LuxbitePage h1 {
-        font-size: 28px;
-    }
+  .LuxbitePage h1 {
+    font-size: 28px;
+  }
 
-    .LuxbitePage img.luxbite-img {
-        max-width: 100%;
-    }
+  .LuxbitePage img.luxbite-img {
+    max-width: 100%;
+  }
 }

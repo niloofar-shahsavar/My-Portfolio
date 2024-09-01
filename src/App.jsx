@@ -7,6 +7,8 @@ import RandomStuff from "./Pages/RandomStuff";
 import Project3 from "./Pages/Project3";
 import Project4 from "./Pages/Project4";
 import "./Style/Navbar.css";
+import About from "./Pages/About";
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
         <Route path="/randomStuff" element={<RandomStuff />} />
         <Route path="/project3" element={<Project3 />} />
         <Route path="/project4" element={<Project4 />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );
