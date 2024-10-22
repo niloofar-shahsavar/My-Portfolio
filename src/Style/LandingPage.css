@@ -54,6 +54,7 @@
 .my-photo {
   width: 20%;
   border-radius: 10px;
+  padding: 20px;
 }
 
 .section-projects {
@@ -143,7 +144,6 @@
   text-align: left;
   padding: 100px;
   border-radius: 28px;
-  border-top: #0e0670 solid 1px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -156,7 +156,6 @@
 
 .cv-border-div {
   border-radius: 28px;
-  border-top: #0e0670 solid 1px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -168,7 +167,6 @@
 
 .contact {
   border-radius: 28px;
-  border-top: #0e0670 solid 1px;
   font-size: 18px;
   text-align: center;
   margin-top: 200px;
@@ -184,12 +182,12 @@
 @media only screen and (max-width: 768px) and (min-width: 300px) {
   .firstTitle {
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 120px;
     margin-bottom: 20px;
   }
 
   .secondTitle {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
   }
 
@@ -202,7 +200,7 @@
   .fairyTailor-img,
   .random-stuff-img,
   .myBlog-img {
-    width: 30%;
+    width: 35%;
   }
 
   .section-projects {
@@ -212,11 +210,20 @@
   .section-about,
   .section-cv,
   .section-contact {
-    padding: 20px;
+  
     margin: 10px;
   }
 
   .aboutMe {
     font-size: 16px;
+    padding: 2px;
+    padding-top: 100px;
   }
+  .cv-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+
 }
