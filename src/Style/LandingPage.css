@@ -3,7 +3,7 @@
 .LandingPage {
   font: 20px "Outfit", sans-serif;
   color: #0e0670;
-  background: linear-gradient(80deg, #ffe1ca, #ecdeff, #c5e6fa);
+  background: linear-gradient(80deg, #eaf6fd, #ffede7, #c5e6fa, #d9e1ff) ;
   animation: AnimationName 15s ease infinite;
   padding-top: 120px;
 }
@@ -142,10 +142,14 @@
   font-size: 18px;
   font-weight: 200;
   text-align: left;
-  padding: 100px;
+  padding: 2px;
+
   border-radius: 28px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+ 
+
 }
 
 .cv-div {
@@ -179,6 +183,15 @@
 .linkdin-icon {
 }
 
+
+
+
+@media only screen and (max-width: 1400px) and (min-width: 768px) {
+  .cv-img {
+    width: 50%;
+  }
+
+}
 @media only screen and (max-width: 768px) and (min-width: 300px) {
   .firstTitle {
     font-size: 25px;
@@ -207,17 +220,13 @@
     display: block;
   }
 
-  .section-about,
-  .section-cv,
-  .section-contact {
-  
-    margin: 10px;
-  }
+
 
   .aboutMe {
-    font-size: 16px;
+    font-size: 14px;
     padding: 2px;
     padding-top: 100px;
+    margin: 100px;
   }
   .cv-img {
     width: 100%;
@@ -225,5 +234,11 @@
     height: auto;
   }
 
+  .contactText {
+    font-size: 10px;
+  }
 
 }
+
+
+

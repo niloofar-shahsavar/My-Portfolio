@@ -119,7 +119,7 @@ const LandingPage = () => {
       </section>
       <section id="section-contact" className="section-contact">
         <div className="contact">
-          <h2>Do I have your attention? Hit me up :)</h2>
+         <div className="contactText"><h2>Do I have your attention? Hit me up :)</h2></div> 
           <p>
             {" "}
             <div className="linkdin-div">
