@@ -3,6 +3,7 @@ import { Link as RouterLink, useLocation } from "react-router-dom";
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
 import cvImage from "../assets/CV.png";
+import cvPdf from "../assets/CV.pdf";
 import Subjectc from "../assets/Hero.jpeg";
 import project1 from "../assets/luxbite.png";
 import RandomStuff from "../assets/RandomStuff.png";
@@ -113,13 +114,17 @@ const LandingPage = () => {
         <div className="cv-div">
           <div className="cv-border-div">
             <h2>CV</h2>
-            <img className="cv-img" src={cvImage} alt="CV" />
+            <a href={cvPdf} target="_blank">
+              <img className="cv-img" src={cvImage} alt="CV" />
+            </a>
           </div>{" "}
         </div>
       </section>
       <section id="section-contact" className="section-contact">
         <div className="contact">
-         <div className="contactText"><h2>Do I have your attention? Hit me up :)</h2></div> 
+          <div className="contactText">
+            <h2>Do I have your attention? Hit me up :)</h2>
+          </div>
           <p>
             {" "}
             <div className="linkdin-div">
