@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
-import cvImage from "../assets/CV.jpg";
+import cvImage from "../assets/CV.png";
 import Subjectc from "../assets/Hero.jpeg";
 import project1 from "../assets/luxbite.png";
 import RandomStuff from "../assets/RandomStuff.png";
