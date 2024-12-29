@@ -134,6 +134,21 @@
   text-decoration: none;
 }
 
+.interAction-project {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.interAction-img {
+  width: 40%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.interAction-title {
+  text-decoration: none;
+}
+
 .section-about {
   text-align: left;
 }

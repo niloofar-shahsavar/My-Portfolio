@@ -12,6 +12,7 @@ import EmailIcon from "../assets/email-icon.svg";
 import arrowIcon from "../assets/Arrow.png";
 import blog from "../assets/MyPortfolio.png";
 import fairy from "../assets/Fairy.png";
+import InterAction from "../assets/InterAction.png";
 
 const LandingPage = () => {
   const location = useLocation();
@@ -29,7 +30,9 @@ const LandingPage = () => {
     <div className="LandingPage">
       <div className="hero-section">
         <div className="hero-text">
-          <h1 className="firstTitle">Hello! My name is Niloo</h1>
+          <h1 className="firstTitle">Hi there! I’m Niloo</h1>
+          <p>(Also Niloofar)</p>
+          <br />
           <h1 className="secondTitle">
             I am a junior UX/UI Designer & Frontend Developer
           </h1>
@@ -74,13 +77,14 @@ const LandingPage = () => {
           </RouterLink>
         </div>
 
-        <div className="fairyTailor-project">
-          <RouterLink to="/project4">
+   
+        <div className="interAction-project">
+          <RouterLink to="/interaction">
             {" "}
-            <img className="fairyTailor-img" src={fairy} />
+            <img className="interAction-img" src={InterAction} />
           </RouterLink>
-          <RouterLink to="/project4" className="fairyTailor-title">
-            <p>Fairy Tailor App</p>
+          <RouterLink to="/interaction" className="interaction-title">
+            <p>InterAction</p>
           </RouterLink>
         </div>
       </section>
