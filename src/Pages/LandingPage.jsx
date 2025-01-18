@@ -7,8 +7,9 @@ import cvPdf from "../assets/CV.pdf";
 import Subjectc from "../assets/Hero.jpeg";
 import project1 from "../assets/luxbite.png";
 import RandomStuff from "../assets/RandomStuff.png";
-import LinkdInIcon from "../assets/LinkedIn-icon.svg";
-import EmailIcon from "../assets/email-icon.svg";
+import LinkdInIcon from "../assets/Icon-linkedin.svg";
+import EmailIcon from "../assets/Icon-mail.svg";
+import PhoneIcon from "../assets/Icon-phone.svg";
 import arrowIcon from "../assets/Arrow.png";
 import blog from "../assets/MyPortfolio.png";
 import fairy from "../assets/Fairy.png";
@@ -39,14 +40,15 @@ const LandingPage = () => {
           <h3 className="thirdTitle">
             {" "}
             As a designer and developer, I understand that the perfect <br />{" "}
-            user interface should look good and work even better.
+            user interface should look good and work even better
           </h3>
         </div>
         <div className="landingPage-photo">
           {" "}
           <img className="my-photo" src={Subjectc} />{" "}
         </div>
-        <img className="arrow-icon" src={arrowIcon} />
+        <br /><br /><br /><br /><br />
+       <h2>Projects</h2>
       </div>
       <section id="section-work" className="section-projects">
         <div className="luxbite-project">
@@ -83,16 +85,16 @@ const LandingPage = () => {
             {" "}
             <img className="interAction-img" src={InterAction} />
           </RouterLink>
-          <RouterLink to="/interaction" className="interaction-title">
+          <RouterLink to="/interaction" className="interAction-title">
             <p>InterAction</p>
           </RouterLink>
         </div>
       </section>
       <section id="section-about" className="section-about">
         <div className="aboutMe">
-          <h2>About me</h2>
+          <div className="aboutme-header"><h2>About me</h2></div>
           <p>
-            Hi! I’m Niloo, a UX/UI designer based in Stockholm, Sweden.
+            I’m Niloo, a UX/UI designer based in Stockholm, Sweden.
             Originally from Iran, I’m often described by friends as a kind,
             reliable, and hardworking team player. My passion lies in
             human-computer interaction, UX, and human-centered design. I have a
@@ -111,13 +113,10 @@ const LandingPage = () => {
       <section id="section-cv" className="section-cv">
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className="cv-div">
+        <br /><br /><br /><br />
+        <div className="cv-div"><h2>CV</h2>
           <div className="cv-border-div">
-            <h2>CV</h2>
+            <p>Click to view or download</p>
             <a href={cvPdf} target="_blank">
               <img className="cv-img" src={cvImage} alt="CV" />
             </a>
@@ -129,7 +128,9 @@ const LandingPage = () => {
           <div className="contactText">
             <h2>Do I have your attention? Hit me up :)</h2>
           </div>
+          <br />
           <p>
+            <br />
             {" "}
             <div className="linkdin-div">
               <img className="linkdin-icon" src={LinkdInIcon} />
@@ -138,18 +139,29 @@ const LandingPage = () => {
               href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/"
               target="_blank"
             >
+              <br />
               {" "}
               Niloofar Shahsavar{" "}
             </a>{" "}
+          
           </p>
           <p>
             {" "}
+            <br />
             <div className="email-div">
               <img className="email-icon" src={EmailIcon} />
             </div>{" "}
+            <br />
             shahsavar.niloofar@gmail.com{" "}
           </p>
-          <p> +46(0)79 333 72 40 </p>
+     
+          <p> {" "}
+            <br />
+            <div className="phone-div">
+              <img className="phone-icon" src={PhoneIcon} />
+            </div>{" "}
+            <br />
+         +46(0)79 333 72 40  {" "} </p>
           <br />
           <br />
           <br />

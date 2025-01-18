@@ -58,12 +58,14 @@
 }
 
 .section-projects {
-  width: 100%;
+  width: 60%;
   max-width: 1200px;
   margin: 40px auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 40px;
+  padding: 50px;
+  border-radius: 28px;
 }
 
 .arrow-icon {
@@ -81,6 +83,12 @@
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.luxbite-img:hover{
+  transform: scale(1.1);
 }
 .luxbite-title {
   text-decoration: none;
@@ -99,8 +107,12 @@
   width: 100%;
   max-width: 100%;
   border-radius: 10px;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.random-stuff-img:hover{
+  transform: scale(1.1);
+}
 .myBlog-project {
   text-align: center;
   margin-bottom: 20px;
@@ -116,8 +128,12 @@
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  margin: 20px;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
+.myBlog-img:hover{
+  transform: scale(1.1);
+}
 .myBlog-title {
   text-decoration: none;
 }
@@ -144,43 +160,57 @@
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .interAction-title {
   text-decoration: none;
 }
-
+.interAction-img:hover{
+  transform: scale(1.1);
+}
 .section-about {
   text-align: left;
 }
 
 .aboutMe {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200;
   text-align: left;
-  padding: 2px;
-
+  padding: 50px;
   border-radius: 28px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
+  max-width: 40%;
+  
  
-
 }
 
+.aboutme-header {
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.section-cv {
+}
 .cv-div {
-  margin: 10px;
+
   border-radius: 28px;
   text-align: center;
+ 
+  padding: 50px;
 }
 
 .cv-border-div {
   border-radius: 28px;
   margin-left: 100px;
   margin-right: 100px;
+  font-size: 14px;
 }
 .cv-img {
-  width: 30%;
-  max-width: 100%;
+  width: 28%;
+  max-width: 70%;
   height: auto;
 }
 
@@ -215,10 +245,13 @@
   }
 
   .secondTitle {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
-
+  .thirdTitle {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
   .photo1 {
     width: 40%;
   }
@@ -230,7 +263,9 @@
   .myBlog-img {
     width: 35%;
   }
-
+  .interAction-img {
+    width: 15%;
+  }
   .section-projects {
     display: block;
   }
@@ -239,9 +274,10 @@
 
   .aboutMe {
     font-size: 14px;
-    padding: 2px;
-    padding-top: 100px;
-    margin: 100px;
+    padding: 50px;
+    padding-top: 2px;
+    margin: 50px;
+    max-width: 80%;
   }
   .cv-img {
     width: 100%;
@@ -250,7 +286,12 @@
   }
 
   .contactText {
-    font-size: 10px;
+    font-size: 12px;
+  }
+
+  .arrow-icon {
+    width: 10px;
+    padding-top: 50px;
   }
 
 }
