@@ -30,16 +30,16 @@
 }
 
 .navbar.glassy {
-  background-color: rgba(255, 255, 255, 0.6); /* Light tint for glassy effect */
-  backdrop-filter: blur(10px); /* Glassy blur effect */
+  background-color: rgba(255, 255, 255, 0.1); /* Light tint for glassy effect */
+  backdrop-filter: blur(14px); /* Glassy blur effect */
   -webkit-backdrop-filter: blur(10px); /* Safari support */
 }
 
 .nav-button,
 .nav-button-up {
   display: inline-block;
-  padding: 10px 20px;
-  margin: 5px;
+  padding: 8px 20px;
+  margin: 4px;
   color: #0e0670;
   text-align: center;
   border-radius: 28px;
@@ -70,8 +70,10 @@
 
 .logo {
   display: flex;
-  width: 150px;
-  padding: 20px;
+  width: 100px;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-bottom: 8px;
 }
 
 .nav-buttons {

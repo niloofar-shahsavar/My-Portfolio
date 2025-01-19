@@ -10,7 +10,7 @@ import RandomStuff from "../assets/RandomStuff.png";
 import LinkdInIcon from "../assets/Icon-linkedin.svg";
 import EmailIcon from "../assets/Icon-mail.svg";
 import PhoneIcon from "../assets/Icon-phone.svg";
-import arrowIcon from "../assets/Arrow.png";
+import arrowIcon from "../assets/Arrow.svg";
 import blog from "../assets/MyPortfolio.png";
 import fairy from "../assets/Fairy.png";
 import InterAction from "../assets/InterAction.png";
@@ -47,8 +47,9 @@ const LandingPage = () => {
           {" "}
           <img className="my-photo" src={Subjectc} />{" "}
         </div>
-        <br /><br /><br /><br /><br />
-       <h2>Projects</h2>
+        <br /><br /><br />
+        <img className="arrowIcon" src={arrowIcon} />{" "} 
+        <br /><br /><h2>Projects</h2>
       </div>
       <section id="section-work" className="section-projects">
         <div className="luxbite-project">
