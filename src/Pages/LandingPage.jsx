@@ -126,6 +126,7 @@ const LandingPage = () => {
       </section>
       <section id="section-contact" className="section-contact">
         <div className="contact">
+          <div className="divider"></div>
           <div className="contactText">
             <h2>Do I have your attention? Hit me up :)</h2>
           </div>

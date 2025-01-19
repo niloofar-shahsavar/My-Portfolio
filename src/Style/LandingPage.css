@@ -214,6 +214,12 @@
   height: auto;
 }
 
+.divider{
+  border-bottom: 1px solid #cfcfd0;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
 .contact {
   border-radius: 28px;
   font-size: 18px;
@@ -222,6 +228,8 @@
   margin-left: 100px;
   margin-right: 100px;
   padding-top: 20px;
+  display: grid;
+ 
 }
 
 .email-icon,
