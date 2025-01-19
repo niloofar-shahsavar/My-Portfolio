@@ -115,7 +115,7 @@
   }
 
   .logo {
-    display: none;
+    width: 80px;
   }
   .navbar{
   position: absolute;

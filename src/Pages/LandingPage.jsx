@@ -117,10 +117,10 @@ const LandingPage = () => {
       <section id="section-cv" className="section-cv">
         <br />
         <br />
-        <br /><br /><br /><br />
+        <br /><br />
         <div className="cv-div"><h2>CV</h2>
           <div className="cv-border-div">
-            <p >  <a href={cvPdf} target="_blank">Click to view or download  </a></p><br /><br />
+            <p >  <a href={cvPdf} target="_blank">Click to view</a></p>
             <a href={cvPdf} target="_blank">
               <img className="cv-img" src={cvImage} alt="CV" />
             </a>
