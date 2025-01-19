@@ -47,14 +47,13 @@
   text-align: center;
 }
 
-.landingPage-photo {
-  border-radius: 10px;
-}
 
-.my-photo {
+
+.hero-image{
   width: 20%;
-  border-radius: 10px;
+  border-radius: 100px;
   padding: 20px;
+  background-color: #d7d7ed;
 }
 
 .section-projects {
@@ -214,6 +213,14 @@
   height: auto;
 }
 
+.arrow-up-container {
+  text-align: center;
+}
+.arrow-up{
+  width: 40px;
+  padding-top: 50px;
+}
+
 .divider{
   border-bottom: 1px solid #cfcfd0;
   margin-top: 20px;
@@ -228,10 +235,18 @@
   margin-left: 100px;
   margin-right: 100px;
   padding-top: 20px;
-  display: grid;
- 
 }
 
+
+.footer-contact {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 .email-icon,
 .linkdin-icon {
 }
@@ -260,8 +275,9 @@
     font-size: 12px;
     margin-bottom: 20px;
   }
-  .photo1 {
+  .hero-image{
     width: 40%;
+    border-radius: 20px;
   }
 
   .luxbite-img,
@@ -297,10 +313,18 @@
     font-size: 12px;
   }
 
-  .arrow-icon {
-    width: 10px;
+  .arrowIcon{
+    width: 30px;
     padding-top: 50px;
   }
+
+  .footer-contact {
+    font-size: 8px;
+  }
+
+.linkdin-icon, .email-icon, .phone-icon {
+  width: 20px;}
+
 
 }
 

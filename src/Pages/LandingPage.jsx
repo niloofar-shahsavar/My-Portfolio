@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
 import cvImage from "../assets/CV.png";
@@ -11,9 +12,11 @@ import LinkdInIcon from "../assets/Icon-linkedin.svg";
 import EmailIcon from "../assets/Icon-mail.svg";
 import PhoneIcon from "../assets/Icon-phone.svg";
 import arrowIcon from "../assets/Arrow.svg";
+import arrowUp from "../assets/arrow-up.svg";
 import blog from "../assets/MyPortfolio.png";
 import fairy from "../assets/Fairy.png";
 import InterAction from "../assets/InterAction.png";
+
 
 const LandingPage = () => {
   const location = useLocation();
@@ -29,7 +32,7 @@ const LandingPage = () => {
 
   return (
     <div className="LandingPage">
-      <div className="hero-section">
+      <div className="hero-section" id="hero">
         <div className="hero-text">
           <h1 className="firstTitle">Hi there! I’m Niloo</h1>
           <p>(Also Niloofar)</p>
@@ -43,12 +46,12 @@ const LandingPage = () => {
             user interface should look good and work even better
           </h3>
         </div>
-        <div className="landingPage-photo">
+        <div>
           {" "}
-          <img className="my-photo" src={Subjectc} />{" "}
+          <img className="hero-image" src={Subjectc} />{" "}
         </div>
         <br /><br /><br />
-        <img className="arrowIcon" src={arrowIcon} />{" "} 
+        <div><img className="arrowIcon" src={arrowIcon} /></div>
         <br /><br /><h2>Projects</h2>
       </div>
       <section id="section-work" className="section-projects">
@@ -124,14 +127,19 @@ const LandingPage = () => {
           </div>{" "}
         </div>
       </section>
+      <div><div class="arrow-up-container"><ScrollLink to="hero" smooth={true} duration={500}>
+  <img className="arrow-up" src={arrowUp} alt="Scroll to Top" /> 
+  </ScrollLink>
+  <div>Scroll to the top</div></div>
+</div>{" "} 
       <section id="section-contact" className="section-contact">
-        <div className="contact">
+      <div><div className="contact">
           <div className="divider"></div>
           <div className="contactText">
             <h2>Do I have your attention? Hit me up :)</h2>
           </div>
           <br />
-          <p>
+         <div className="footer-contact"> <div><p>
             <br />
             {" "}
             <div className="linkdin-div">
@@ -146,8 +154,8 @@ const LandingPage = () => {
               Niloofar Shahsavar{" "}
             </a>{" "}
           
-          </p>
-          <p>
+          </p></div>
+          <div><p>
             {" "}
             <br />
             <div className="email-div">
@@ -155,22 +163,22 @@ const LandingPage = () => {
             </div>{" "}
             <br />
             shahsavar.niloofar@gmail.com{" "}
-          </p>
+          </p></div>
      
-          <p> {" "}
+          <div><p> {" "}
             <br />
             <div className="phone-div">
               <img className="phone-icon" src={PhoneIcon} />
             </div>{" "}
             <br />
-         +46(0)79 333 72 40  {" "} </p>
+         +46(0)79 333 72 40  {" "} </p></div></div>
           <br />
           <br />
           <br />
           <br />
           <br />
           <br />
-        </div>
+        </div></div>
       </section>
     </div>
   );
