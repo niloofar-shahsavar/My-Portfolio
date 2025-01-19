@@ -115,8 +115,12 @@
   }
 
   .logo {
-    width: 70px; /* Smaller size for the logo */
-    padding: 20px;
-    padding-left: 10px;
+    display: none;
   }
+  .navbar{
+  position: absolute;
+
+
+  }
+  
 }

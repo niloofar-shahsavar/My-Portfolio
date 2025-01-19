@@ -120,7 +120,7 @@ const LandingPage = () => {
         <br /><br /><br /><br />
         <div className="cv-div"><h2>CV</h2>
           <div className="cv-border-div">
-            <p>Click to view or download</p>
+            <p >  <a href={cvPdf} target="_blank">Click to view or download  </a></p><br /><br />
             <a href={cvPdf} target="_blank">
               <img className="cv-img" src={cvImage} alt="CV" />
             </a>
@@ -129,14 +129,14 @@ const LandingPage = () => {
       </section>
       <div><div class="arrow-up-container"><ScrollLink to="hero" smooth={true} duration={500}>
   <img className="arrow-up" src={arrowUp} alt="Scroll to Top" /> 
-  </ScrollLink>
-  <div>Scroll to the top</div></div>
+  </ScrollLink><br /><br />
+  <div>Scroll to top</div></div>
 </div>{" "} 
       <section id="section-contact" className="section-contact">
       <div><div className="contact">
           <div className="divider"></div>
           <div className="contactText">
-            <h2>Do I have your attention? Hit me up :)</h2>
+            <h2>Let’s Collaborate</h2>
           </div>
           <br />
          <div className="footer-contact"> <div><p>
