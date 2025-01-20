@@ -31,7 +31,7 @@ const LandingPage = () => {
       }
     }
   }, [location]);
-  
+
   const smoothScrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -59,7 +59,7 @@ const LandingPage = () => {
           <img className="hero-image" src={Subjectc} />{" "}
         </div>
         <br /><br /><br />
-        <div><img className="arrowIcon" src={arrowIcon} /></div>
+        <div><img className="arrowIcon" src={arrowIcon} alt="Arrow Icon"/></div>
         <br /><br /><h2>Projects</h2>
       </div>
       <section id="section-work" className="section-projects">
@@ -102,6 +102,7 @@ const LandingPage = () => {
           </RouterLink>
         </div>
       </section>
+     <div className="arrowIconSeparator"><img className="arrowIconMid" src={arrowIcon} alt="Arrow Icon" /></div>
       <section id="section-about" className="section-about">
         <div className="aboutMe">
           <div className="aboutme-header"><h2>About me</h2></div>
@@ -122,6 +123,7 @@ const LandingPage = () => {
           </RouterLink>
         </div>
       </section>
+      <div className="arrowIconSeparator"><img className="arrowIcon" src={arrowIcon} alt="Arrow Icon" /></div>
       <section id="section-cv" className="section-cv">
         <div className="cv-div">
           <div className="cv-border-div"><h2>CV</h2>
@@ -134,7 +136,7 @@ const LandingPage = () => {
       </section>
       <div><div class="arrow-up-container">
 
-                <RouterLink to="/" onClick={smoothScrollToTop}>
+       <RouterLink to="/" onClick={smoothScrollToTop}>
   <img className="arrow-up" src={arrowUp} alt="Scroll to Top" /> 
   </RouterLink><br /><br />
   <div>Scroll to top</div></div>
