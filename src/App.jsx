@@ -9,6 +9,8 @@ import Project4 from "./Pages/Project4";
 import "./Style/Navbar.css";
 import About from "./Pages/About";
 import InterAction from "./Pages/InterAction";
+import Lottie from "lottie-react";
+
 
 
 
@@ -24,6 +26,7 @@ function App() {
         <Route path="/project4" element={<Project4 />} />
         <Route path="/about" element={<About />} />
         <Route path="/interaction" element={<InterAction />} />
+
       </Routes>
     </BrowserRouter>
   );
