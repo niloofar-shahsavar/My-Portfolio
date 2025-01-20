@@ -10,6 +10,7 @@
   top: 0; /* Align it to the top */
   z-index: 10; /* Ensure it is above other content */
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  box-shadow: 2px 4px 10px rgba(231, 231, 231, 0.5);
 }
 
 @keyframes AnimationName {

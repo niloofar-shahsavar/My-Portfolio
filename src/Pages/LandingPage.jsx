@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
+import { HashLink as RouterHashLink } from 'react-router-hash-link';
+import { Link as ScrollLink } from 'react-scroll';
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
 import cvImage from "../assets/CV.png";
@@ -21,7 +22,7 @@ import Foooterdesign from "../assets/footer.svg";
 
 const LandingPage = () => {
   const location = useLocation();
-
+  const isLandingPage = location.pathname === '/';
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.replace("#", ""));
@@ -30,7 +31,13 @@ const LandingPage = () => {
       }
     }
   }, [location]);
-
+  
+  const smoothScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Adjust duration if needed
+    });
+  };
   return (
     <div className="LandingPage">
       <div className="hero-section" id="hero">
@@ -116,11 +123,8 @@ const LandingPage = () => {
         </div>
       </section>
       <section id="section-cv" className="section-cv">
-        <br />
-  
-        <br /><br />
-        <div className="cv-div"><h2>CV</h2>
-          <div className="cv-border-div">
+        <div className="cv-div">
+          <div className="cv-border-div"><h2>CV</h2>
             <p ><a href={cvPdf} target="_blank">Click to view</a></p>
             <a href={cvPdf} target="_blank">
               <img className="cv-img" src={cvImage} alt="CV" />
@@ -128,9 +132,11 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-      <div><div class="arrow-up-container"><ScrollLink to="hero" smooth={true} duration={500}>
+      <div><div class="arrow-up-container">
+
+                <RouterLink to="/" onClick={smoothScrollToTop}>
   <img className="arrow-up" src={arrowUp} alt="Scroll to Top" /> 
-  </ScrollLink><br /><br />
+  </RouterLink><br /><br />
   <div>Scroll to top</div></div>
 </div>
 

@@ -41,7 +41,7 @@ const Navbar = () => {
       </div>
       <div className='navbar-button'>
         {isLandingPage ? (
-          <ScrollLink className='nav-button-up' to="section-work" smooth={true} duration={500} offset={-150}>
+          <ScrollLink className='nav-button-up' to="section-work" smooth={true} duration={500} offset={-280}>
             Projects
           </ScrollLink>
         ) : (
@@ -50,7 +50,7 @@ const Navbar = () => {
           </RouterHashLink>
         )}
         {isLandingPage ? (
-          <ScrollLink className='nav-button' to="section-about" smooth={true} duration={500}>
+          <ScrollLink className='nav-button' to="section-about" smooth={true} duration={500} offset={-150}>
             About
           </ScrollLink>
         ) : (
@@ -59,7 +59,7 @@ const Navbar = () => {
           </RouterHashLink>
         )}
         {isLandingPage ? (
-          <ScrollLink className='nav-button-up' to="section-cv" smooth={true} duration={500}>
+          <ScrollLink className='nav-button-up' to="section-cv" smooth={true} duration={500} offset={-150}>
             CV
           </ScrollLink>
         ) : (
