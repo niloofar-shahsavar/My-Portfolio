@@ -131,7 +131,7 @@ const LandingPage = () => {
   <img className="arrow-up" src={arrowUp} alt="Scroll to Top" /> 
   </ScrollLink><br /><br />
   <div>Scroll to top</div></div>
-</div>{" "} 
+</div>
       <section id="section-contact" className="section-contact">
       <div><div className="contact">
           <div className="divider"></div>
@@ -141,44 +141,44 @@ const LandingPage = () => {
           <br />
          <div className="footer-contact"> <div><p>
             <br />
-            {" "}
+        
             <div className="linkdin-div">
               <img className="linkdin-icon" src={LinkdInIcon} />
-            </div>{" "}
+            </div>
             <a
               href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/"
               target="_blank"
             >
               <br />
-              {" "}
-              Niloofar Shahsavar{" "}
-            </a>{" "}
+            
+              Niloofar Shahsavar
+            </a>
           
           </p></div>
           <div><p>
-            {" "}
+          
             <br />
             <div className="email-div">
               <img className="email-icon" src={EmailIcon} />
-            </div>{" "}
+            </div>
             <br />
-            shahsavar.niloofar@gmail.com{" "}
+            shahsavar.niloofar@gmail.com
           </p></div>
      
-          <div><p> {" "}
+          <div><p> 
             <br />
             <div className="phone-div">
               <img className="phone-icon" src={PhoneIcon} />
-            </div>{" "}
+            </div>
             <br />
-         +46(0)79 333 72 40  {" "} </p></div></div>
-          <br />
+         +46(0)79 333 72 40   </p></div></div>
           <br />
           <br />
           <br />
           <br />
           <br />
         </div></div>
+        <div className="copyRight"><p>Copyright © Niloofar shahsavar 2024. All rights reserved.</p></div>
       </section>
     </div>
   );

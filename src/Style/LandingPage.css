@@ -265,12 +265,18 @@
   font-size: 14px;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
+.copyRight {
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 10px;
+}
 
 @media only screen and (max-width: 1400px) and (min-width: 768px) {
   .cv-img {
@@ -333,7 +339,7 @@
   }
 
   .cv-border-div {
-    font-size: 10px;
+    font-size: 12px;
     margin: 0 auto;
     padding: 10px;
     width: 90%;
@@ -368,12 +374,18 @@
     width: 30px;
   }
   .footer-contact {
-    font-size: 10px;
+    font-size: 12px;
     display:inline
   }
 
 .linkdin-icon, .email-icon, .phone-icon {
   width: 20px;}
+
+  .copyRight {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
 }
 
 
