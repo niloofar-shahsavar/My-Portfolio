@@ -16,6 +16,7 @@ import arrowUp from "../assets/arrow-up.svg";
 import blog from "../assets/MyPortfolio.png";
 import fairy from "../assets/Fairy.png";
 import InterAction from "../assets/InterAction.png";
+import Foooterdesign from "../assets/footer.svg";
 
 
 const LandingPage = () => {
@@ -116,15 +117,15 @@ const LandingPage = () => {
       </section>
       <section id="section-cv" className="section-cv">
         <br />
-        <br />
+  
         <br /><br />
         <div className="cv-div"><h2>CV</h2>
           <div className="cv-border-div">
-            <p >  <a href={cvPdf} target="_blank">Click to view</a></p>
+            <p ><a href={cvPdf} target="_blank">Click to view</a></p>
             <a href={cvPdf} target="_blank">
               <img className="cv-img" src={cvImage} alt="CV" />
             </a>
-          </div>{" "}
+          </div>
         </div>
       </section>
       <div><div class="arrow-up-container"><ScrollLink to="hero" smooth={true} duration={500}>
@@ -132,6 +133,13 @@ const LandingPage = () => {
   </ScrollLink><br /><br />
   <div>Scroll to top</div></div>
 </div>
+
+
+
+         <div className="footerdesign">  <img src={Foooterdesign} alt="CV" /></div>
+
+
+
       <section id="section-contact" className="section-contact">
       <div><div className="contact">
           <div className="divider"></div>
@@ -140,7 +148,7 @@ const LandingPage = () => {
           </div>
           <br />
          <div className="footer-contact"> <div><p>
-            <br />
+         
         
             <div className="linkdin-div">
               <img className="linkdin-icon" src={LinkdInIcon} />
@@ -157,7 +165,7 @@ const LandingPage = () => {
           </p></div>
           <div><p>
           
-            <br />
+   
             <div className="email-div">
               <img className="email-icon" src={EmailIcon} />
             </div>
@@ -166,13 +174,12 @@ const LandingPage = () => {
           </p></div>
      
           <div><p> 
-            <br />
+      
             <div className="phone-div">
               <img className="phone-icon" src={PhoneIcon} />
             </div>
             <br />
          +46(0)79 333 72 40   </p></div></div>
-          <br />
           <br />
           <br />
           <br />
