@@ -15,9 +15,9 @@ import PhoneIcon from "../assets/Icon-phone.svg";
 import arrowIcon from "../assets/Arrow.svg";
 import arrowUp from "../assets/arrow-up.svg";
 import blog from "../assets/MyPortfolio.png";
-import fairy from "../assets/Fairy.png";
 import InterAction from "../assets/InterAction.png";
 import Foooterdesign from "../assets/footer.svg";
+import GitHubIcon from "../assets/GitHub-icon.svg";
 
 const LandingPage = () => {
   const location = useLocation();
@@ -110,7 +110,7 @@ const LandingPage = () => {
         <img className="arrowIconMid" src={arrowIcon} alt="Arrow Icon" />
       </div>
       <section id="section-about" className="section-about">
-        <div className="aboutMe">
+        <div className="aboutme-landingPage">
           <div className="aboutme-header">
             <h2>About me</h2>
           </div>
@@ -172,46 +172,36 @@ const LandingPage = () => {
             <div className="contactText">
               <h2>Let’s Collaborate</h2>
             </div>
-            <br />
             <div className="footer-contact">
-              {" "}
-              <div>
-                <p>
-                  <div className="linkdin-div">
-                    <img className="linkdin-icon" src={LinkdInIcon} />
-                  </div>
-                  <a
-                    href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/"
-                    target="_blank"
-                  >
-                    <br />
-                    Niloofar Shahsavar
-                  </a>
-                </p>
+              <div className="contact-item">
+              <a href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/" target="_blank">
+                <img className="icon" src={LinkdInIcon} alt="LinkedIn Icon" /> </a>
+                <a
+                  href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
               </div>
-              <div>
-                <p>
-                  <div className="email-div">
-                    <img className="email-icon" src={EmailIcon} />
-                  </div>
-                  <br />
-                  shahsavar.niloofar@gmail.com
-                </p>
+              <div className="contact-item">
+              <a href="https://github.com/niloofar-shahsavar" target="_blank">
+                <img className="icon" src={GitHubIcon} alt="GitHub Icon" />
+                </a>
+                <a href="https://github.com/niloofar-shahsavar" target="_blank">
+                  GitHub
+                </a>
               </div>
-              <div>
-                <p>
-                  <div className="phone-div">
-                    <img className="phone-icon" src={PhoneIcon} />
-                  </div>
-                  <br />
-                  +46(0)79 333 72 40{" "}
-                </p>
+              <div className="contact-item">
+              <a href="mailto:shahsavar.niloofar@gmail.com">
+                <img className="icon" src={EmailIcon} alt="Email Icon" />
+                </a>
+                <span>shahsavar.niloofar@gmail.com</span>
+              </div>
+              <div className="contact-item">
+                <img className="icon" src={PhoneIcon} alt="Phone Icon" />
+                <span>+46(0)79 333 72 40</span>
               </div>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
         </div>
         <div className="copyRight">

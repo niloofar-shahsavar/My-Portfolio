@@ -6,7 +6,7 @@ import Lottie from "lottie-react";
 const AnimationComponent = () => {
   return (
     <div>
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div style={{ width: "100%", margin: "0" }}>
         <Lottie animationData={animationData} loop={true} />
       </div>
     </div>

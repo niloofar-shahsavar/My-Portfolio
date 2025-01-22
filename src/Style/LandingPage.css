@@ -176,7 +176,7 @@
   margin-bottom: 100px;
 }
 
-.aboutMe {
+.aboutme-landingPage {
   font-size: 18px;
   font-weight: 200;
   text-align: left;
@@ -190,6 +190,15 @@
   backdrop-filter: blur(100px);
   background-color: rgba(255, 255, 255, 0.1); /* Light tint for glassy effect */
   margin-top: 100px;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.aboutme-landingPage a {
+  font-weight: 500;
+}
+
+.aboutme-landingPage:hover {
+  transform: scale(1.1);
 }
 
 .aboutme-header {
@@ -288,16 +297,49 @@
   font-size: 16px;
   text-align: center;
   padding: 30px;
+  margin-bottom: 100px;
 }
 
 .footer-contact {
-  font-size: 14px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 0px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns */
+  gap: 20px; /* Space between each contact item */
+  text-align: center; /* Center align all content */
+  margin-bottom: 100px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center the items horizontally */
+}
+
+.icon {
+  width: 40px; /* Adjust the icon size */
+  height: 40px; /* Ensure consistent size */
+  margin-bottom: 8px; /* Add space between icon and text */
+}
+
+.icon path {
+  fill: none;
+  stroke: #0E0670;
+  transition: all 0.3s ease;
+}
+
+.contact-item a:hover .icon path {
+  fill: #333; /* Change to a darker color on hover */
+  stroke: none; /* Remove stroke on hover */
+}
+
+a,
+span {
+  font-size: 14px; /* Text size */
+  text-decoration: none; /* Remove underline for links */
+  color:#0e0670;
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover for better UX */
 }
 
 .copyRight {
@@ -374,7 +416,7 @@
     width: 90%;
   }
 
-  .aboutMe {
+  .aboutme-landingPage {
     font-size: 14px;
     padding: 26px;
     padding-top: 2px;
@@ -384,13 +426,9 @@
     margin-bottom: 200px;
   }
 
-  .divider {
-    border-bottom: 1px solid #cfcfd0;
-    margin-top: 0px;
-    margin-bottom: 40px;
-  }
+
   .contactText {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .arrowIcon {
@@ -405,16 +443,19 @@
     width: 30px;
   }
   .footer-contact {
-    font-size: 12px;
-    display: inline;
+    grid-template-columns: 1fr; /* Stack all items in a single column */
+    gap: 15px;
   }
 
-  .linkdin-icon,
-  .email-icon,
-  .phone-icon {
-    width: 20px;
+  .icon {
+    width: 30px; /* Smaller icon size for mobile */
+    height: 30px;
   }
-
+  
+  a,
+  span {
+    font-size: 12px; /* Smaller text for mobile */
+  }
   .copyRight {
     font-size: 12px;
     text-align: center;
