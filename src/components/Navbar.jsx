@@ -1,78 +1,101 @@
-import React, { useState, useEffect } from 'react';
-import { Link as RouterLink, useLocation } from 'react-router-dom';
-import { HashLink as RouterHashLink } from 'react-router-hash-link';
-import { Link as ScrollLink } from 'react-scroll';
-import '../Style/Navbar.css';
-import logo from '../assets/new-logo.svg';
+import React, { useState, useEffect } from "react";
+import { Link as RouterLink, useLocation } from "react-router-dom";
+import { HashLink as RouterHashLink } from "react-router-hash-link";
+import { Link as ScrollLink } from "react-scroll";
+import "../Style/Navbar.css";
+import logo from "../assets/new-logo.svg";
 
 const Navbar = () => {
   const location = useLocation();
-  const [navbarBackground, setNavbarBackground] = useState('transparent');
+  const [navbarBackground, setNavbarBackground] = useState("transparent");
 
-  const isLandingPage = location.pathname === '/';
+  const isLandingPage = location.pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
-        setNavbarBackground('glassy'); // Change to desired background color
+        setNavbarBackground("glassy"); // Change to desired background color
       } else {
-        setNavbarBackground('transparent');
+        setNavbarBackground("transparent");
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   const smoothScrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // Adjust duration if needed
+      behavior: "smooth", // Adjust duration if needed
     });
   };
   return (
-    <nav className= {`navbar ${navbarBackground}`} >
-      <div className='logo-div'>
+    <nav className={`navbar ${navbarBackground}`}>
+      <div className="logo-div">
         {/* Navigate to Landing Page and scroll to the top */}
         <RouterLink to="/" onClick={smoothScrollToTop}>
           <img src={logo} alt="Logo" className="logo" />
         </RouterLink>
       </div>
-      <div className='navbar-button'>
+      <div className="navbar-button">
         {isLandingPage ? (
-          <ScrollLink className='nav-button-up' to="section-work" smooth={true} duration={500} offset={-330}>
+          <ScrollLink
+            className="nav-button-up"
+            to="section-work"
+            smooth={true}
+            duration={500}
+            offset={-330}
+          >
             Projects
           </ScrollLink>
         ) : (
-          <RouterHashLink className='nav-button-up' to="/#section-work" smooth>
+          <RouterHashLink className="nav-button-up" to="/#section-work" smooth>
             Projects
           </RouterHashLink>
         )}
         {isLandingPage ? (
-          <ScrollLink className='nav-button' to="section-about" smooth={true} duration={500} offset={-150}>
+          <ScrollLink
+            className="nav-button"
+            to="section-about"
+            smooth={true}
+            duration={500}
+            offset={-150}
+          >
             About
           </ScrollLink>
         ) : (
-          <RouterHashLink className='nav-button' to="/#section-about" smooth>
+          <RouterHashLink className="nav-button" to="/#section-about" smooth>
             About
           </RouterHashLink>
         )}
         {isLandingPage ? (
-          <ScrollLink className='nav-button-up' to="section-cv" smooth={true} duration={500} offset={-150}>
+          <ScrollLink
+            className="nav-button-up"
+            to="section-cv"
+            smooth={true}
+            duration={500}
+            offset={-150}
+          >
             CV
           </ScrollLink>
         ) : (
-          <RouterHashLink className='nav-button-up' to="/#section-cv" smooth>
+          <RouterHashLink className="nav-button-up" to="/#section-cv" smooth>
             CV
           </RouterHashLink>
         )}
         {isLandingPage ? (
-          <ScrollLink className='nav-button' to="section-contact" smooth={true} duration={500}>
+          <ScrollLink
+            className="nav-button"
+            to="section-contact"
+            smooth={true}
+            duration={500}
+          >
             Contact
           </ScrollLink>
         ) : (
-          <RouterHashLink className='nav-button' to="/#section-contact" smooth>
+          <RouterHashLink className="nav-button" to="/#section-contact" smooth>
             Contact
           </RouterHashLink>
         )}

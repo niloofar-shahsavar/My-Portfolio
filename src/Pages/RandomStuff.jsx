@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Style/RandomStuff.css";
 
-const RandomStuff = () => {
+function RandomStuff() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="randomStuff">
       <h1 className="random-first-title">Random Stuff</h1>
@@ -21,6 +25,6 @@ const RandomStuff = () => {
       </p>
     </div>
   );
-};
+}
 
 export default RandomStuff;

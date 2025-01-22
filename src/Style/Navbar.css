@@ -79,7 +79,7 @@
   transition: fill 0.3s ease, transform 0.3s ease;
 }
 
-.logo:hover{
+.logo:hover {
   transform: scale(1.1);
 }
 
@@ -124,8 +124,7 @@
   .logo {
     width: 80px;
   }
-  .navbar{
-  position: absolute;
+  .navbar {
+    position: absolute;
   }
-  
 }

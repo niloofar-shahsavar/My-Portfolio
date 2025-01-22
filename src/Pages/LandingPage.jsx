@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
-import { HashLink as RouterHashLink } from 'react-router-hash-link';
-import { Link as ScrollLink } from 'react-scroll';
+import { HashLink as RouterHashLink } from "react-router-hash-link";
+import { Link as ScrollLink } from "react-scroll";
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
 import cvImage from "../assets/CV.png";
@@ -19,10 +19,9 @@ import fairy from "../assets/Fairy.png";
 import InterAction from "../assets/InterAction.png";
 import Foooterdesign from "../assets/footer.svg";
 
-
 const LandingPage = () => {
   const location = useLocation();
-  const isLandingPage = location.pathname === '/';
+  const isLandingPage = location.pathname === "/";
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.replace("#", ""));
@@ -35,7 +34,7 @@ const LandingPage = () => {
   const smoothScrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // Adjust duration if needed
+      behavior: "smooth", // Adjust duration if needed
     });
   };
   return (
@@ -58,9 +57,15 @@ const LandingPage = () => {
           {" "}
           <img className="hero-image" src={Subjectc} />{" "}
         </div>
-        <br /><br /><br />
-        <div><img className="arrowIcon" src={arrowIcon} alt="Arrow Icon"/></div>
-        <br /><br /><h2>Projects</h2>
+        <br />
+        <br />
+        <br />
+        <div>
+          <img className="arrowIcon" src={arrowIcon} alt="Arrow Icon" />
+        </div>
+        <br />
+        <br />
+        <h2>Projects</h2>
       </div>
       <section id="section-work" className="section-projects">
         <div className="luxbite-project">
@@ -91,7 +96,6 @@ const LandingPage = () => {
           </RouterLink>
         </div>
 
-   
         <div className="interAction-project">
           <RouterLink to="/interaction">
             {" "}
@@ -102,18 +106,22 @@ const LandingPage = () => {
           </RouterLink>
         </div>
       </section>
-     <div className="arrowIconSeparator"><img className="arrowIconMid" src={arrowIcon} alt="Arrow Icon" /></div>
+      <div className="arrowIconSeparator">
+        <img className="arrowIconMid" src={arrowIcon} alt="Arrow Icon" />
+      </div>
       <section id="section-about" className="section-about">
         <div className="aboutMe">
-          <div className="aboutme-header"><h2>About me</h2></div>
+          <div className="aboutme-header">
+            <h2>About me</h2>
+          </div>
           <p>
-            I’m Niloo, a UX/UI designer based in Stockholm, Sweden.
-            Originally from Iran, I’m often described by friends as a kind,
-            reliable, and hardworking team player. My passion lies in
-            human-computer interaction, UX, and human-centered design. I have a
-            strong ability to quickly absorb new information and am constantly
-            seeking to challenge myself by learning and growing. I’m committed
-            to continuously improving my technical skills and knowledge through
+            I’m Niloo, a UX/UI designer based in Stockholm, Sweden. Originally
+            from Iran, I’m often described by friends as a kind, reliable, and
+            hardworking team player. My passion lies in human-computer
+            interaction, UX, and human-centered design. I have a strong ability
+            to quickly absorb new information and am constantly seeking to
+            challenge myself by learning and growing. I’m committed to
+            continuously improving my technical skills and knowledge through
             workshops and seminars, viewing mistakes as valuable learning
             opportunities. I’m currently open to internships, as well as
             part-time and full-time junior positions in the UX/UI design field.
@@ -123,77 +131,92 @@ const LandingPage = () => {
           </RouterLink>
         </div>
       </section>
-      <div className="arrowIconSeparator"><img className="arrowIcon" src={arrowIcon} alt="Arrow Icon" /></div>
+      <div className="arrowIconSeparator">
+        <img className="arrowIcon" src={arrowIcon} alt="Arrow Icon" />
+      </div>
       <section id="section-cv" className="section-cv">
         <div className="cv-div">
-          <div className="cv-border-div"><h2>CV</h2>
-            <p ><a href={cvPdf} target="_blank">Click to view</a></p>
+          <div className="cv-border-div">
+            <h2>CV</h2>
+            <p>
+              <a href={cvPdf} target="_blank">
+                Click to view
+              </a>
+            </p>
             <a href={cvPdf} target="_blank">
               <img className="cv-img" src={cvImage} alt="CV" />
             </a>
           </div>
         </div>
       </section>
-      <div><div class="arrow-up-container">
+      <div>
+        <div class="arrow-up-container">
+          <RouterLink to="/" onClick={smoothScrollToTop}>
+            <img className="arrow-up" src={arrowUp} alt="Scroll to Top" />
+          </RouterLink>
+          <br />
+          <br />
+          <div>Scroll to top</div>
+        </div>
+      </div>
 
-       <RouterLink to="/" onClick={smoothScrollToTop}>
-  <img className="arrow-up" src={arrowUp} alt="Scroll to Top" /> 
-  </RouterLink><br /><br />
-  <div>Scroll to top</div></div>
-</div>
-
-
-
-         <div className="footerdesign">  <img src={Foooterdesign} alt="CV" /></div>
-
-
+      <div className="footerdesign">
+        {" "}
+        <img src={Foooterdesign} alt="CV" />
+      </div>
 
       <section id="section-contact" className="section-contact">
-      <div><div className="contact">
-          <div className="divider"></div>
-          <div className="contactText">
-            <h2>Let’s Collaborate</h2>
+        <div>
+          <div className="contact">
+            <div className="divider"></div>
+            <div className="contactText">
+              <h2>Let’s Collaborate</h2>
+            </div>
+            <br />
+            <div className="footer-contact">
+              {" "}
+              <div>
+                <p>
+                  <div className="linkdin-div">
+                    <img className="linkdin-icon" src={LinkdInIcon} />
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/"
+                    target="_blank"
+                  >
+                    <br />
+                    Niloofar Shahsavar
+                  </a>
+                </p>
+              </div>
+              <div>
+                <p>
+                  <div className="email-div">
+                    <img className="email-icon" src={EmailIcon} />
+                  </div>
+                  <br />
+                  shahsavar.niloofar@gmail.com
+                </p>
+              </div>
+              <div>
+                <p>
+                  <div className="phone-div">
+                    <img className="phone-icon" src={PhoneIcon} />
+                  </div>
+                  <br />
+                  +46(0)79 333 72 40{" "}
+                </p>
+              </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
-          <br />
-         <div className="footer-contact"> <div><p>
-         
-        
-            <div className="linkdin-div">
-              <img className="linkdin-icon" src={LinkdInIcon} />
-            </div>
-            <a
-              href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/"
-              target="_blank"
-            >
-              <br />
-            
-              Niloofar Shahsavar
-            </a>
-          
-          </p></div>
-          <div><p>
-          
-   
-            <div className="email-div">
-              <img className="email-icon" src={EmailIcon} />
-            </div>
-            <br />
-            shahsavar.niloofar@gmail.com
-          </p></div>
-     
-          <div><p> 
-      
-            <div className="phone-div">
-              <img className="phone-icon" src={PhoneIcon} />
-            </div>
-            <br />
-         +46(0)79 333 72 40   </p></div></div>
-          <br />
-          <br />
-          <br />
-          <br />
-        </div></div>
-        <div className="copyRight"><p>Copyright © Niloofar shahsavar 2024. All rights reserved.</p></div>
+        </div>
+        <div className="copyRight">
+          <p>Copyright © Niloofar shahsavar 2024. All rights reserved.</p>
+        </div>
       </section>
     </div>
   );

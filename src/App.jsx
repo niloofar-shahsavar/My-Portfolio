@@ -11,22 +11,26 @@ import About from "./Pages/About";
 import InterAction from "./Pages/InterAction";
 import Lottie from "lottie-react";
 
-
-
-
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/"element={<> <LandingPage /></>} />
+        <Route
+          path="/"
+          element={
+            <>
+              {" "}
+              <LandingPage />
+            </>
+          }
+        />
         <Route path="/luxbite-project" element={<Luxbite />} />
         <Route path="/randomStuff" element={<RandomStuff />} />
         <Route path="/project3" element={<Project3 />} />
         <Route path="/project4" element={<Project4 />} />
         <Route path="/about" element={<About />} />
         <Route path="/interaction" element={<InterAction />} />
-
       </Routes>
     </BrowserRouter>
   );

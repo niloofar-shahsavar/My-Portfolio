@@ -3,7 +3,7 @@
 .LandingPage {
   font: 20px "Outfit", sans-serif;
   color: #0e0670;
-  background: linear-gradient(80deg, #eaf6fd, #ffede7, #c5e6fa, #d9e1ff) ;
+  background: linear-gradient(80deg, #eaf6fd, #ffede7, #c5e6fa, #d9e1ff);
   animation: AnimationName 15s ease infinite;
   padding-top: 120px;
 }
@@ -47,9 +47,7 @@
   text-align: center;
 }
 
-
-
-.hero-image{
+.hero-image {
   width: 20%;
   border-radius: 100px;
   padding: 20px;
@@ -68,19 +66,16 @@
   border-radius: 28px;
 }
 
-
 .arrowIconMid {
   transform: rotate(90deg); /* Rotate the image 90 degrees clockwise */
 }
 
 .arrowIconSeparator {
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-
 
 .luxbite-project {
   text-align: center;
@@ -95,8 +90,7 @@ align-items: center;
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-
-.luxbite-img:hover{
+.luxbite-img:hover {
   transform: scale(1.1);
 }
 .luxbite-title {
@@ -119,7 +113,7 @@ align-items: center;
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.random-stuff-img:hover{
+.random-stuff-img:hover {
   transform: scale(1.1);
 }
 .myBlog-project {
@@ -140,7 +134,7 @@ align-items: center;
   margin: 20px;
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.myBlog-img:hover{
+.myBlog-img:hover {
   transform: scale(1.1);
 }
 .myBlog-title {
@@ -174,7 +168,7 @@ align-items: center;
 .interAction-title {
   text-decoration: none;
 }
-.interAction-img:hover{
+.interAction-img:hover {
   transform: scale(1.1);
 }
 .section-about {
@@ -196,7 +190,6 @@ align-items: center;
   backdrop-filter: blur(100px);
   background-color: rgba(255, 255, 255, 0.1); /* Light tint for glassy effect */
   margin-top: 100px;
- 
 }
 
 .aboutme-header {
@@ -229,16 +222,15 @@ align-items: center;
   font-size: 14px;
   width: 100%;
   max-width: 600px;
-  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1); 
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
 
 .cv-border-div a {
   text-decoration: none;
 }
 
 .cv-border-div h2 {
-  font-size:  2rem;
+  font-size: 2rem;
 }
 
 .cv-img:hover {
@@ -253,7 +245,6 @@ align-items: center;
   border-radius: 24px;
   padding: 30px;
   display: block;
-  
 }
 
 .arrow-up-container {
@@ -261,7 +252,7 @@ align-items: center;
   font-size: 16px;
 }
 
-.arrow-up{
+.arrow-up {
   width: 40px;
   padding-top: 50px;
   cursor: pointer;
@@ -271,7 +262,6 @@ align-items: center;
 .arrow-up:hover {
   transform: scale(1.2);
 }
-
 
 .footerdesign {
   display: block;
@@ -284,9 +274,6 @@ align-items: center;
   width: 100%;
 }
 
-
-
-
 .contact {
   border-radius: 28px;
   font-size: 18px;
@@ -297,13 +284,11 @@ align-items: center;
   padding-top: 20px;
 }
 
-
 .contactText {
   font-size: 16px;
   text-align: center;
   padding: 30px;
 }
-
 
 .footer-contact {
   font-size: 14px;
@@ -314,7 +299,6 @@ align-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-
 
 .copyRight {
   font-size: 12px;
@@ -354,7 +338,7 @@ align-items: center;
     font-size: 12px;
     margin-bottom: 20px;
   }
-  .hero-image{
+  .hero-image {
     width: 40%;
     border-radius: 20px;
   }
@@ -373,9 +357,9 @@ align-items: center;
   }
 
   .cv-img {
-     width: 70%;
-     margin: 0 auto;
-     display: block;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
   }
 
   .cv-div {
@@ -389,7 +373,7 @@ align-items: center;
     padding: 10px;
     width: 90%;
   }
-  
+
   .aboutMe {
     font-size: 14px;
     padding: 26px;
@@ -397,10 +381,10 @@ align-items: center;
     margin: auto;
     max-width: 80%;
     margin-top: 48px;
-    margin-bottom:200px;
+    margin-bottom: 200px;
   }
 
-  .divider{
+  .divider {
     border-bottom: 1px solid #cfcfd0;
     margin-top: 0px;
     margin-bottom: 40px;
@@ -409,7 +393,7 @@ align-items: center;
     font-size: 12px;
   }
 
-  .arrowIcon{
+  .arrowIcon {
     width: 30px;
   }
 
@@ -417,16 +401,19 @@ align-items: center;
     font-size: 12px;
   }
 
-  .arrow-up{
+  .arrow-up {
     width: 30px;
   }
   .footer-contact {
     font-size: 12px;
-    display:inline
+    display: inline;
   }
 
-.linkdin-icon, .email-icon, .phone-icon {
-  width: 20px;}
+  .linkdin-icon,
+  .email-icon,
+  .phone-icon {
+    width: 20px;
+  }
 
   .copyRight {
     font-size: 12px;
@@ -434,6 +421,3 @@ align-items: center;
     padding-bottom: 10px;
   }
 }
-
-
-
