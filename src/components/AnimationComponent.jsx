@@ -5,8 +5,12 @@ import Lottie from "lottie-react";
 
 const AnimationComponent = () => {
   return (
-    <div style={{ width: '300px', margin: 'auto' }}>
-      <Lottie animationData={animationData} loop={true} />
+    <div>  
+      
+      <div style={{ width: '100%', margin: 'auto' }}>
+      <Lottie animationData={animationData} loop={true} /></div>
+
+
     </div>
   );
 };
