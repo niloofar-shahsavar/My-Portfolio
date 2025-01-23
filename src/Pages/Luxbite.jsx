@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../Style/LuxbiteProject.css";
-import project1 from "../assets/luxbite.png";
+import project1 from "../assets/luxbite-landing.jpg";
 
 function Luxbite() {
   useEffect(() => {

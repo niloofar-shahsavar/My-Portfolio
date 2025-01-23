@@ -1,20 +1,18 @@
 import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
-import { HashLink as RouterHashLink } from "react-router-hash-link";
-import { Link as ScrollLink } from "react-scroll";
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
 import cvImage from "../assets/CV.png";
 import cvPdf from "../assets/CV.pdf";
 import Subjectc from "../assets/Hero.jpeg";
-import project1 from "../assets/luxbite.png";
-import RandomStuff from "../assets/RandomStuff.png";
+import project1 from "../assets/luxbite-landing.jpg";
+import RandomStuff from "../assets/randomstuff-landing.png";
 import LinkdInIcon from "../assets/Icon-linkedin.svg";
 import EmailIcon from "../assets/Icon-mail.svg";
 import PhoneIcon from "../assets/Icon-phone.svg";
 import arrowIcon from "../assets/Arrow.svg";
 import arrowUp from "../assets/arrow-up.svg";
-import blog from "../assets/MyPortfolio.png";
+import blog from "../assets/Portfolio-landing.png";
 import InterAction from "../assets/InterAction.png";
 import Foooterdesign from "../assets/footer.svg";
 import GitHubIcon from "../assets/GitHub-icon.svg";
@@ -138,11 +136,9 @@ const LandingPage = () => {
         <div className="cv-div">
           <div className="cv-border-div">
             <h2>CV</h2>
-            <p>
               <a href={cvPdf} target="_blank">
                 Click to view
               </a>
-            </p>
             <a href={cvPdf} target="_blank">
               <img className="cv-img" src={cvImage} alt="CV" />
             </a>
@@ -154,14 +150,10 @@ const LandingPage = () => {
           <RouterLink to="/" onClick={smoothScrollToTop}>
             <img className="arrow-up" src={arrowUp} alt="Scroll to Top" />
           </RouterLink>
-          <br />
-          <br />
           <div>Scroll to top</div>
         </div>
       </div>
-
       <div className="footerdesign">
-        {" "}
         <img src={Foooterdesign} alt="CV" />
       </div>
 
