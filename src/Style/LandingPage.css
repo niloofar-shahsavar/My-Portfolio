@@ -312,23 +312,18 @@
   display: flex;
   flex-direction: column; /* Stack content vertically */
   align-items: center; /* Center the items horizontally */
+ 
 }
 
 .icon {
   width: 40px; /* Adjust the icon size */
   height: 40px; /* Ensure consistent size */
   margin-bottom: 8px; /* Add space between icon and text */
+  transition: transform 0.5s ease;
 }
 
-.icon path {
-  fill: none;
-  stroke: #0E0670;
-  transition: all 0.3s ease;
-}
-
-.contact-item a:hover .icon path {
-  fill: #333; /* Change to a darker color on hover */
-  stroke: none; /* Remove stroke on hover */
+.icon:hover {
+  transform: scale(1.3); /* Scale the icon on hover */
 }
 
 a,
@@ -428,7 +423,8 @@ a:hover {
 
 
   .contactText {
-    font-size: 8px;
+    font-size: 12px;
+    padding: 10px;
   }
 
   .arrowIcon {

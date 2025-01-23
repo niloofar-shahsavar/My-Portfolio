@@ -34,7 +34,7 @@ const LandingPage = () => {
   const smoothScrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // Adjust duration if needed
+      behavior: "smooth", 
     });
   };
   return (

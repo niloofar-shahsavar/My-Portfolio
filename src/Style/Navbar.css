@@ -4,11 +4,11 @@
   display: flex;
   font-family: "Outfit", sans-serif;
   color: #0e0670;
-  background: transparent; /* Make the background transparent */
-  position: fixed; /* Position the navbar fixed */
-  width: 100%; /* Ensure it spans the full width */
-  top: 0; /* Align it to the top */
-  z-index: 10; /* Ensure it is above other content */
+  background: transparent; 
+  position: fixed; 
+  width: 100%; 
+  top: 0; 
+  z-index: 10; 
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
   box-shadow: 2px 4px 10px rgba(231, 231, 231, 0.5);
 }
@@ -31,9 +31,9 @@
 }
 
 .navbar.glassy {
-  background-color: rgba(255, 255, 255, 0.1); /* Light tint for glassy effect */
-  backdrop-filter: blur(14px); /* Glassy blur effect */
-  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  background-color: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(14px); 
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .nav-button,
@@ -48,14 +48,17 @@
   width: 90px;
   cursor: pointer;
   text-decoration: none;
+  
 }
 
 .nav-button {
-  border-bottom: solid 1px #a4a2c8;
+  border-bottom: solid 2px #a4a2c8;
+ 
 }
 
 .nav-button-up {
-  border-top: solid 1px #a4a2c8;
+  border-top: solid 2px #a4a2c8;
+
 }
 
 .nav-button-up:hover {

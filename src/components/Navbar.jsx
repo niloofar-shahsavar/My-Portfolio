@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
-        setNavbarBackground("glassy"); // Change to desired background color
+        setNavbarBackground("glassy"); 
       } else {
         setNavbarBackground("transparent");
       }
@@ -28,13 +28,12 @@ const Navbar = () => {
   const smoothScrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // Adjust duration if needed
+      behavior: "smooth", 
     });
   };
   return (
     <nav className={`navbar ${navbarBackground}`}>
       <div className="logo-div">
-        {/* Navigate to Landing Page and scroll to the top */}
         <RouterLink to="/" onClick={smoothScrollToTop}>
           <img src={logo} alt="Logo" className="logo" />
         </RouterLink>
@@ -46,7 +45,7 @@ const Navbar = () => {
             to="section-work"
             smooth={true}
             duration={500}
-            offset={-330}
+            offset={-200}
           >
             Projects
           </ScrollLink>
@@ -76,7 +75,7 @@ const Navbar = () => {
             to="section-cv"
             smooth={true}
             duration={500}
-            offset={-150}
+            offset={-100}
           >
             CV
           </ScrollLink>
@@ -91,6 +90,7 @@ const Navbar = () => {
             to="section-contact"
             smooth={true}
             duration={500}
+            offset={0}
           >
             Contact
           </ScrollLink>
