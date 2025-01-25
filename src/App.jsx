@@ -10,7 +10,6 @@ import "./Style/Navbar.css";
 import About from "./Pages/About";
 import InterAction from "./Pages/InterAction";
 
-
 function App() {
   return (
     <BrowserRouter>

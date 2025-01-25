@@ -10,7 +10,6 @@
   top: 0; 
   z-index: 10; 
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-  box-shadow: 2px 4px 10px rgba(231, 231, 231, 0.5);
 }
 
 @keyframes AnimationName {
@@ -47,30 +46,29 @@
   transition: background-color 0.3s ease;
   width: 90px;
   cursor: pointer;
-  text-decoration: none;
-  
 }
 
 .nav-button {
-  border-bottom: solid 2px #a4a2c8;
- 
+  border-bottom: solid 1px #000ac4;
 }
 
 .nav-button-up {
-  border-top: solid 2px #a4a2c8;
-
+  border-top: solid 1px #000ac4;
 }
 
 .nav-button-up:hover {
   background-color: #0e0670;
   color: white;
   transition: 1s;
+  text-decoration: none;
 }
 .nav-button:hover {
   background-color: #0e0670;
   color: white;
   transition: 1s;
+  text-decoration: none;
 }
+
 
 .logo {
   display: flex;
@@ -111,8 +109,8 @@
     width: 20px;
     display: flex;
     justify-content: center;
-    border-top: 1px solid #0e0670;
-    border-bottom: 1px solid #0e0670;
+    border-top: 0.9px solid #0e0670;
+    border-bottom: 0.9px solid #0e0670;
   }
 
   .nav-button {
@@ -120,8 +118,8 @@
     display: flex;
     justify-content: center;
     font-size: smaller;
-    border-top: 1px solid #0e0670;
-    border-bottom: 1px solid #0e0670;
+    border-top: 0.9px solid #0e0670;
+    border-bottom: 0.9px solid #0e0670;
   }
 
   .logo {

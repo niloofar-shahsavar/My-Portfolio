@@ -186,8 +186,8 @@ const LandingPage = () => {
               <div className="contact-item">
               <a href="mailto:shahsavar.niloofar@gmail.com">
                 <img className="icon" src={EmailIcon} alt="Email Icon" />
-                </a>
-                <span>shahsavar.niloofar@gmail.com</span>
+                </a> 
+                <span><a href="mailto:shahsavar.niloofar@gmail.com">shahsavar.niloofar@gmail.com</a></span>
               </div>
               <div className="contact-item">
                 <img className="icon" src={PhoneIcon} alt="Phone Icon" />
