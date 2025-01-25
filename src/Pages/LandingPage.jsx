@@ -16,6 +16,8 @@ import blog from "../assets/Portfolio-landing.png";
 import InterAction from "../assets/InterAction.png";
 import Foooterdesign from "../assets/footer.svg";
 import GitHubIcon from "../assets/GitHub-icon.svg";
+import "../Style/Footer.css";
+import Footer from "../components/Footer";
 
 const LandingPage = () => {
   const location = useLocation();
@@ -145,63 +147,7 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-      <div className="Footer">
-        <div>
-        <div class="arrow-up-container">
-          <RouterLink to="/" onClick={smoothScrollToTop}>
-            <img className="arrow-up" src={arrowUp} alt="Scroll to Top" />
-          </RouterLink>
-          <div>Scroll to top</div>
-        </div>
-      </div>
-      <div className="footerdesign">
-        <img src={Foooterdesign} alt="CV" />
-      </div>
-
-      <section id="section-contact" className="section-contact">
-        <div>
-          <div className="contact">
-            <div className="divider"></div>
-            <div className="contactText">
-              <h2>Let’s Collaborate</h2>
-            </div>
-            <div className="footer-contact">
-              <div className="contact-item">
-              <a href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/" target="_blank">
-                <img className="icon" src={LinkdInIcon} alt="LinkedIn Icon" /> </a>
-                <a
-                  href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/"
-                  target="_blank"
-                >
-                  LinkedIn
-                </a>
-              </div>
-              <div className="contact-item">
-              <a href="https://github.com/niloofar-shahsavar" target="_blank">
-                <img className="icon" src={GitHubIcon} alt="GitHub Icon" />
-                </a>
-                <a href="https://github.com/niloofar-shahsavar" target="_blank">
-                  GitHub
-                </a>
-              </div>
-              <div className="contact-item">
-              <a href="mailto:shahsavar.niloofar@gmail.com">
-                <img className="icon" src={EmailIcon} alt="Email Icon" />
-                </a> 
-                <span><a href="mailto:shahsavar.niloofar@gmail.com">shahsavar.niloofar@gmail.com</a></span>
-              </div>
-              <div className="contact-item">
-                <img className="icon" src={PhoneIcon} alt="Phone Icon" />
-                <span>+46(0)79 333 72 40</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="copyRight">
-          <p>Copyright © Niloofar shahsavar 2024. All rights reserved.</p>
-        </div>
-      </section>
-    </div></div>
+     </div>
   );
 };
 

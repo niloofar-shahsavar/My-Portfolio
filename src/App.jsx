@@ -10,6 +10,7 @@ import "./Style/Navbar.css";
 import About from "./Pages/About";
 import InterAction from "./Pages/InterAction";
 import Footer from "./components/Footer";
+import "./Style/Footer.css";
 
 function App() {
   return (

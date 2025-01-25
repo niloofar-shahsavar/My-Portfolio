@@ -3,9 +3,9 @@ import LinkdInIcon from "../assets/Icon-linkedin.svg";
 import EmailIcon from "../assets/Icon-mail.svg";
 import PhoneIcon from "../assets/Icon-phone.svg";
 import GitHubIcon from "../assets/GitHub-icon.svg";
-import { Link as RouterLink, useLocation } from "react-router-dom";
 import arrowUp from "../assets/arrow-up.svg";
 import Foooterdesign from "../assets/footer.svg";
+import "../Style/Footer.css";
 
 const Footer = () => {
   
