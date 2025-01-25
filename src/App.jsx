@@ -9,6 +9,7 @@ import Project4 from "./Pages/Project4";
 import "./Style/Navbar.css";
 import About from "./Pages/About";
 import InterAction from "./Pages/InterAction";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/interaction" element={<InterAction />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -145,7 +145,8 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-      <div>
+      <div className="Footer">
+        <div>
         <div class="arrow-up-container">
           <RouterLink to="/" onClick={smoothScrollToTop}>
             <img className="arrow-up" src={arrowUp} alt="Scroll to Top" />
@@ -200,7 +201,7 @@ const LandingPage = () => {
           <p>Copyright © Niloofar shahsavar 2024. All rights reserved.</p>
         </div>
       </section>
-    </div>
+    </div></div>
   );
 };
 

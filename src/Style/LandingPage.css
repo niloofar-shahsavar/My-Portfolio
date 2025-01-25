@@ -62,7 +62,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
-  padding: 50px;
+  padding: 65px;
   border-radius: 28px;
 }
 
@@ -401,11 +401,18 @@ a:hover {
     border-radius: 20px;
   }
 
+  .section-projects {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: #dcdbe4 solid 1px;
+    backdrop-filter: blur(100px);
+    
+  }
+
   .luxbite-img,
   .fairyTailor-img,
   .random-stuff-img,
   .myBlog-img {
-    width: 50%;
+    width: 75%;
   }
   .interAction-img {
     width: 15%;
