@@ -368,17 +368,25 @@ a:hover {
     margin-bottom: 20px;
   }
 
-    .luxbite-img,
-    .random-stuff-img,
-    .myBlog-img,
-    .interAction-img,
-    .cv-img,
-    .aboutme-landingPage,
-    .cv-div:hover {
+  .luxbite-img,
+  .random-stuff-img,
+  .myBlog-img,
+  .interAction-img,
+  .cv-img,
+  .aboutme-landingPage,
+  .cv-div {
     transition: none !important;
-    }
+  }
 
-
+  .luxbite-img:hover,
+  .random-stuff-img:hover,
+  .myBlog-img:hover,
+  .interAction-img:hover,
+  .cv-img:hover,
+  .aboutme-landingPage:hover,
+  .cv-div:hover {
+    transform: none !important;
+  }
 
   .secondTitle {
     font-size: 16px;
