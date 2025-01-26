@@ -31,12 +31,13 @@
   text-decoration: underline;
 }
 
-.interactionPage img.interAction-img {
-  width: 100%;
-  max-width: 600px;
+.interAction-img {
+  width: 30%;
+  max-width: 200px;
   height: auto;
   border-radius: 10px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .interAction-description {
@@ -61,7 +62,7 @@
     font-size: 28px;
   }
 
-  .interActionPage img.interAction-img {
-    max-width: 100%;
+  .interAction-img {
+    max-width: 40%;
   }
 }

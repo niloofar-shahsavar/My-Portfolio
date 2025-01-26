@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-.hero-text {
+.hero-text-landing{
   text-align: center;
   padding: 20px;
 }
@@ -51,9 +51,30 @@
   width: 20%;
   border-radius: 100px;
   padding: 20px;
-  background-color: #d7d7ed;
   border: #d2d0e4 solid 1px;
+  filter: drop-shadow(0 0 .6rem color-mix(in srgb, #1749be 100%, transparent));
 }
+
+
+
+
+.downloadCv {
+background: radial-gradient(141.42% 141.42% at 100% 0%, #fff6, #fff0), radial-gradient(140.35% 140.35% at 100% 94.74%, #bd34fe, #bd34fe00), radial-gradient(89.94% 89.94% at 18.42% 15.79%, #41d1ff, #41d1ff00);
+box-shadow: 0 1px #ffffffbf inset;
+ border: #c2c1cd solid 0px;
+ display: inline-block;
+ padding: 18px 20px;
+ margin: 40px;
+ text-align: center;
+ border-radius: 28px;
+ transition: background-color 0.3s ease;
+ cursor: pointer;
+ color: #0e0670;
+ font-size: larger;
+}
+
+
+
 
 .section-projects {
   width: 60%;
@@ -64,10 +85,17 @@
   gap: 40px;
   padding: 65px;
   border-radius: 28px;
+  filter: drop-shadow(0 0 .6rem color-mix(in srgb, #1749be 100%, transparent));
+}
+
+
+.arrowIcon{
+filter: drop-shadow(0 0 .6rem color-mix(in srgb, #1749be 50%, transparent));
 }
 
 .arrowIconMid {
-  transform: rotate(90deg); /* Rotate the image 90 degrees clockwise */
+  transform: rotate(90deg);
+  filter: drop-shadow(0 0 .6rem color-mix(in srgb, #1749be 50%, transparent));
 }
 
 .arrowIconSeparator {
@@ -82,7 +110,7 @@
   margin-bottom: 20px;
 }
 
-.luxbite-img {
+.luxbite-img-landing {
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -90,7 +118,7 @@
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.luxbite-img:hover {
+.luxbite-img-landing:hover {
   transform: scale(1.1);
 }
 .luxbite-title {
@@ -157,6 +185,7 @@
 .section-about {
   text-align: left;
   margin-bottom: 100px;
+  
 }
 
 .aboutme-landingPage {
@@ -175,10 +204,12 @@
   margin-top: 100px;
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   margin-bottom: 200px;
+  
 }
 
 .aboutme-landingPage a {
   font-weight: 500;
+  
 }
 
 .aboutme-landingPage:hover {
@@ -196,8 +227,9 @@
 .section-cv {
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 100px;
+  padding-bottom: 80px;
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
 }
 
 .cv-div {
@@ -209,14 +241,13 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px; /* Match the max-width of the about me section */
+  max-width: 800px; 
   border: #dcdbe4 solid 1px;
   padding-top: 0px;
   backdrop-filter: blur(100px);
   background-color: rgba(255, 255, 255, 0.1);
   margin-top: 100px;
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-  margin-bottom: 200px;
 }
 
 .cv-div:hover {
@@ -368,7 +399,7 @@ a:hover {
     margin-bottom: 20px;
   }
 
-  .luxbite-img,
+  .luxbite-img-landing,
   .random-stuff-img,
   .myBlog-img,
   .interAction-img,
@@ -378,7 +409,7 @@ a:hover {
     transition: none !important;
   }
 
-  .luxbite-img:hover,
+  .luxbite-img-landing:hover,
   .random-stuff-img:hover,
   .myBlog-img:hover,
   .interAction-img:hover,
@@ -408,7 +439,7 @@ a:hover {
     
   }
 
-  .luxbite-img,
+  .luxbite-img-landing,
   .fairyTailor-img,
   .random-stuff-img,
   .myBlog-img {

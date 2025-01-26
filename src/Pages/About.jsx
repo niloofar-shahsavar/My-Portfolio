@@ -11,8 +11,9 @@ function About() {
   return (
     <div>
       <div className="about-me-div">
-        <h1>Hello</h1>
-      </div>
+        <div className="hero-text"><h1>Hello & Welcome!</h1>
+        As a junior UX/UI designer and a front-end developer, there are many things to learn, so be patient with me as I grow. 
+      </div></div>
       <div>
         <AnimationComponent />{" "}
       </div>

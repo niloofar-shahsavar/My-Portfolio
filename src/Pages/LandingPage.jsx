@@ -7,17 +7,11 @@ import cvPdf from "../assets/CV.pdf";
 import Subjectc from "../assets/Hero.jpeg";
 import project1 from "../assets/luxbite-landing.jpg";
 import RandomStuff from "../assets/randomstuff-landing.png";
-import LinkdInIcon from "../assets/Icon-linkedin.svg";
-import EmailIcon from "../assets/Icon-mail.svg";
-import PhoneIcon from "../assets/Icon-phone.svg";
 import arrowIcon from "../assets/Arrow.svg";
-import arrowUp from "../assets/arrow-up.svg";
 import blog from "../assets/Portfolio-landing.png";
 import InterAction from "../assets/InterAction.png";
-import Foooterdesign from "../assets/footer.svg";
-import GitHubIcon from "../assets/GitHub-icon.svg";
 import "../Style/Footer.css";
-import Footer from "../components/Footer";
+
 
 const LandingPage = () => {
   const location = useLocation();
@@ -40,7 +34,7 @@ const LandingPage = () => {
   return (
     <div className="LandingPage">
       <div className="hero-section" id="hero">
-        <div className="hero-text">
+        <div className="hero-text-landing">
           <h1 className="firstTitle">Hi there! I’m Niloo</h1>
           <p>(Also Niloofar)</p>
           <br />
@@ -57,6 +51,7 @@ const LandingPage = () => {
           {" "}
           <img className="hero-image" src={Subjectc} />{" "}
         </div>
+ 
         <br />
         <br />
         <br />
@@ -70,7 +65,7 @@ const LandingPage = () => {
       <section id="section-work" className="section-projects">
         <div className="luxbite-project">
           <RouterLink to="/luxbite-project">
-            <img className="luxbite-img" src={project1} />
+            <img className="luxbite-img-landing" src={project1} />
           </RouterLink>{" "}
           <RouterLink to="/luxbite-project" className="luxbite-title">
             <p>LuxeBite</p>

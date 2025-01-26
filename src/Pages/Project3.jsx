@@ -8,9 +8,18 @@ function Project3() {
   }, []);
 
   return (
-    <div className="Project3">
-      My portfolio is a work in progress. Check back soon for updates!
-    </div>
+   <div> 
+ 
+    <div className="rotate-animation"><div className="background-mic">
+   
+        <div className="mic">
+        <span className="mic-text">Check back soon for updates!</span>
+          <i className="mic-icon"></i>
+          <div className="mic-shadow"></div>
+        </div>
+      </div>
+      </div> 
+    </div> 
   );
 }
 

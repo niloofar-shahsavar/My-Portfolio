@@ -10,6 +10,7 @@
   top: 0; 
   z-index: 10; 
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  
 }
 
 @keyframes AnimationName {
@@ -46,14 +47,19 @@
   transition: background-color 0.3s ease;
   width: 90px;
   cursor: pointer;
+  
+  
 }
 
 .nav-button {
   border-bottom: solid 1px #000ac4;
+  
+  
 }
 
 .nav-button-up {
   border-top: solid 1px #000ac4;
+  
 }
 
 .nav-button-up:hover {
@@ -78,6 +84,7 @@
   padding-bottom: 20px;
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: fill 0.3s ease, transform 0.3s ease;
+  
 }
 
 .logo:hover {
