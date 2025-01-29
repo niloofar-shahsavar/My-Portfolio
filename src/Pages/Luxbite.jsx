@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import "../Style/LuxbiteProject.css";
 import project1 from "../assets/luxbite-landing.jpg";
+import ideamapLuxebite from "../CaseStudies/ideamap-luxebite.png";
+import wireframeLuxebite from "../CaseStudies/wireframe-luxebite.png";
+import prototypeLuxebite from "../CaseStudies/prototype-luxebite.png";
 
 function Luxbite() {
   useEffect(() => {
@@ -23,9 +26,23 @@ function Luxbite() {
         </p>
       </div>
       <div className="luxbite-description">
-        <h2>Description</h2>
+        <div className="luxbite-descriptionTitle">
+          <h2>LuxeBite – Elevating Meal Delivery to a Luxury Experience</h2>
+        </div>
         <div className="project-section">
-          <h3>Vision</h3>
+          <h3>Project Type:</h3>
+          UX/UI Design, User Research
+          <h3>Role:</h3>
+          UX/UI Designer
+          <h3>Tools: </h3>
+          Figma, Notion, Miro, Slack
+          <h3>Team:</h3>
+          Niloofar Shahsavar, Julia Kleresjö, Joakim Strandlund, Nur Gültekin
+          <h3>Timeline:</h3>
+          Januari – April 2024 (10 weeks)
+          <div className="luxbite-description-description">
+            <h3>💡 Vision</h3>
+          </div>
           <p>
             LuxeBite was born out of a desire to create something unique that
             didn’t exist in the market—a luxurious food experience that caters
@@ -33,12 +50,13 @@ function Luxbite() {
             deliver an extraordinary culinary experience straight to the
             customer’s home, blending convenience with elegance.
           </p>
+          <img className="ideaMap" src={ideamapLuxebite} alt="ideamap" />
         </div>
 
         <div className="project-section">
           <h3>Purpose (Why)</h3>
           <p>
-            Our goal is to make every day a little more special by offering
+            Our goal was to make every day a little more special by offering
             luxurious meal boxes that add a touch of gold to the everyday
             routine. LuxeBite isn’t just about food; it’s about elevating the
             ordinary to the extraordinary.
@@ -72,6 +90,26 @@ function Luxbite() {
         </div>
 
         <div className="project-section">
+          <h3>🎯 User Research & Market Analysis</h3>
+          <ul>
+            <li>
+              Studied competitors like Svarta Lådan and BetterFeast to identify
+              design trends and gaps.
+            </li>
+            <li>
+              {" "}
+              Conducted user interviews and surveys to define personas and user
+              needs.
+            </li>
+            <li>
+              {" "}
+              Created customer journey maps and behavioral archetypes to guide
+              UX decisions.
+            </li>
+          </ul>
+        </div>
+
+        <div className="project-section">
           <h3>User Research</h3>
           <p>
             To better understand our audience, we conducted qualitative research
@@ -87,7 +125,33 @@ function Luxbite() {
             touch in the delivery process.
           </p>
         </div>
+        <div className="project-section">
+          <h3>📐 Wireframing & Prototyping</h3>
+          <p>
+            <ul>
+              <li>
+                Designed wireframes focusing on a premium, modern, and sleek
+                aesthetic.{" "}
+              </li>
 
+              <li>Implemented a “sticky” navbar for seamless navigation.</li>
+              <li>
+                Developed an intuitive, high-converting checkout flow inspired
+                by best practices.
+              </li>
+            </ul>
+          </p>
+          <img
+            className="ideaMap"
+            src={wireframeLuxebite}
+            alt="wireframeLuxebite"
+          />
+          <img
+            className="ideaMap"
+            src={prototypeLuxebite}
+            alt="prototypeLuxebite"
+          />
+        </div>
         <div className="project-section">
           <h3>Project Development and Team Workflow</h3>
           <p>

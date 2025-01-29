@@ -12,7 +12,6 @@ import blog from "../assets/Portfolio-landing.png";
 import InterAction from "../assets/InterAction.png";
 import "../Style/Footer.css";
 
-
 const LandingPage = () => {
   const location = useLocation();
   const isLandingPage = location.pathname === "/";
@@ -28,7 +27,7 @@ const LandingPage = () => {
   const smoothScrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", 
+      behavior: "smooth",
     });
   };
   return (
@@ -51,7 +50,7 @@ const LandingPage = () => {
           {" "}
           <img className="hero-image" src={Subjectc} />{" "}
         </div>
- 
+
         <br />
         <br />
         <br />
@@ -133,16 +132,16 @@ const LandingPage = () => {
         <div className="cv-div">
           <div className="cv-border-div">
             <h2>CV</h2>
-              <a href={cvPdf} target="_blank">
-                Click to view
-              </a>
+            <a href={cvPdf} target="_blank">
+              Click to view
+            </a>
             <a href={cvPdf} target="_blank">
               <img className="cv-img" src={cvImage} alt="CV" />
             </a>
           </div>
         </div>
       </section>
-     </div>
+    </div>
   );
 };
 

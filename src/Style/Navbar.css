@@ -4,13 +4,12 @@
   display: flex;
   font-family: "Outfit", sans-serif;
   color: #0e0670;
-  background: transparent; 
-  position: fixed; 
-  width: 100%; 
-  top: 0; 
-  z-index: 10; 
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-  
 }
 
 @keyframes AnimationName {
@@ -31,8 +30,8 @@
 }
 
 .navbar.glassy {
-  background-color: rgba(255, 255, 255, 0.1); 
-  backdrop-filter: blur(14px); 
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(10px);
 }
 
@@ -47,19 +46,14 @@
   transition: background-color 0.3s ease;
   width: 90px;
   cursor: pointer;
-  
-  
 }
 
 .nav-button {
   border-bottom: solid 1px #000ac4;
-  
-  
 }
 
 .nav-button-up {
   border-top: solid 1px #000ac4;
-  
 }
 
 .nav-button-up:hover {
@@ -75,7 +69,6 @@
   text-decoration: none;
 }
 
-
 .logo {
   display: flex;
   width: 100px;
@@ -84,7 +77,6 @@
   padding-bottom: 20px;
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: fill 0.3s ease, transform 0.3s ease;
-  
 }
 
 .logo:hover {
