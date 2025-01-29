@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "../Style/LuxbiteProject.css";
 import project1 from "../assets/luxbite-landing.jpg";
-import ideamapLuxebite from "../caseStudies/ideamap-luxebite.png";
-import wireframeLuxebite from "../caseStudies/wireframe-luxebite.png";
-import prototypeLuxebite from "../caseStudies/prototype-luxebite.png";
+import ideamapLuxebite from "../assets/caseStudies/ideamap-luxebite.png";
+import wireframeLuxebite from "../assets/caseStudies/wireframe-luxebite.png";
+import prototypeLuxebite from "../assets/caseStudies/prototype-luxebite.png";
 
 function Luxbite() {
   useEffect(() => {
