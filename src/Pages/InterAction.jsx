@@ -13,7 +13,7 @@ function InterAction() {
       <div className="interAction-page">
         <h1>InterAction</h1>
         <img
-          className="interAction-img"
+          className="interAction-img-page"
           src={InterActionImage}
           alt="InterAction Project"
         />
