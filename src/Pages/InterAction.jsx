@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Style/InterAction-project.css";
-import InterActionImage from "../assets/InterAction.png";
+import InterActionVideo from "../assets/InterAction.mp4";
 
 function InterAction() {
   useEffect(() => {
@@ -12,11 +12,10 @@ function InterAction() {
     <div>
       <div className="interAction-page">
         <h1>InterAction</h1>
-        <img
-          className="interAction-img-page"
-          src={InterActionImage}
-          alt="InterAction Project"
-        />
+        <video className="interActionVideo" autoPlay loop muted aria-label="InterAction Project Video">
+          <source src={InterActionVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <p>
           <a
             href="https://www.figma.com/proto/KXEFtu5amIdwGjnVmeKiyv/InterAction-Prototype?node-id=2262-610&t=K82lcjKQ3qd8qTmg-1"

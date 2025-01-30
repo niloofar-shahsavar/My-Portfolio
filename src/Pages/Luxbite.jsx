@@ -36,10 +36,8 @@ function Luxbite() {
           UX/UI Designer
           <h3>Tools: </h3>
           Figma, Notion, Miro, Slack
-          <h3>Team:</h3>
-          Niloofar Shahsavar, Julia Kleresjö, Joakim Strandlund, Nur Gültekin
           <h3>Timeline:</h3>
-          Januari – April 2024 (10 weeks)
+          Januari – April 2024 (8 weeks)
           <div className="luxbite-description-description">
             <h3>💡 Vision</h3>
           </div>

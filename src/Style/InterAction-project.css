@@ -9,7 +9,7 @@
   color: #0e0670;
   background-color: #f2f1f5;
   padding: 40px;
-  margin: 200px auto; 
+  margin: 200px auto;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 900px;
@@ -31,13 +31,14 @@
   text-decoration: underline;
 }
 
-.interAction-img {
-  width: 30%;
-  max-width: 200px;
+.interActionVideo {
+  width: 40%;
+  max-width: 400px;
   height: auto;
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 60px;
 }
 
 .interAction-description {
@@ -45,7 +46,7 @@
   color: #0e0670;
   background-color: #f2f1f5;
   padding: 40px;
-  margin: 20px auto; 
+  margin: 20px auto;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 900px;
@@ -62,8 +63,8 @@
     font-size: 28px;
   }
 
-  .interAction-img-page {
-    max-width: 40%;
-    height: 220px;
+  .interActionVideo {
+    width: 60%;
+    border-radius: 25px;
   }
 }
