@@ -8,6 +8,8 @@ function RandomStuff() {
   }, []);
 
   return (
+    
+   <div  className="randomStuffPage">
     <div className="randomStuff">
       <h1 className="random-first-title">Random Stuff</h1>
       <h2>Description</h2>
@@ -23,7 +25,7 @@ function RandomStuff() {
           Visit our website
         </a>
       </p>
-    </div>
+    </div></div>
   );
 }
 

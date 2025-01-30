@@ -19,6 +19,8 @@
 .portfolio-description {
   margin-top: 200px;
   text-align: center;
+  font: 18px "Outfit", sans-serif;
+  color: #0e0670;
 }
 
 .background-mic {
@@ -139,8 +141,30 @@
 }
 
 .mic-text {
-  position: relative; /* Positioned relative to the .mic container */
-  z-index: 3; /* Ensure it stays above the circles */
-  color: #fff; /* Adjust text color to be visible */
+  position: relative; 
+  z-index: 3; 
+  color: #fff; 
   font: 20px "Outfit", sans-serif;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .Project3,
+  .Project4 {
+    margin-top: 250px;
+    font-size: 14x;
+    padding: 20px;
+    width: 70%;
+  }
+
+  .portfolio-description {
+    margin-top: 250px;
+    padding: 40px;
+  }
+
+
+  .rotate-animation {
+    display:none;
+  }
+
 }

@@ -1,26 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+
+
+.randomStuffPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  color: #0e0670;
+  border-radius: 10px;
+}
+
+
 .randomStuff {
   background-color: #f2f1f5;
   border-radius: 10px;
   padding: 100px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 50%;
   margin-top: 200px;
-  margin-left: 200px;
   color: #0e0670;
   font: 20px "Outfit", sans-serif;
   background: radial-gradient(141.42% 141.42% at 100% 0%, #fff6, #fff0), radial-gradient(140.35% 140.35% at 100% 94.74%, #bd34fe, #bd34fe00), radial-gradient(89.94% 89.94% at 18.42% 15.79%, #41d1ff, #41d1ff00);
   box-shadow: 0 1px #ffffffbf inset;
   margin-bottom: 1000px;
+  align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
+  
+  
+ 
+  
+  
   .randomStuff {
-    margin-top: 220px;
+    margin-top: 250px;
+    font-size: 14x;
+    padding: 20px;
+    width: 70%;
   }
 
   .random-first-title {
-    font-size: 30px;
+    font-size: 26px;
   }
-}
+
+ h2{
+    font-size: 18px;
+  }
+  
+ }
+
+
+

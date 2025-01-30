@@ -14,7 +14,7 @@ justify-content: center;
   border-radius: 10px;
   padding: 60px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 120px;
+  margin-top: 190px;
   background: radial-gradient(141.42% 141.42% at 100% 0%, #fff6, #fff0), radial-gradient(140.35% 140.35% at 100% 94.74%, #bd34fe, #bd34fe00), radial-gradient(89.94% 89.94% at 18.42% 15.79%, #41d1ff, #41d1ff00);
   box-shadow: 0 1px #ffffffbf inset;
 }
