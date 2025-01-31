@@ -34,8 +34,14 @@ function Luxbite() {
           UX/UI Design, User Research
           <h3>Role:</h3>
           UX/UI Designer
-          <h3>Tools: </h3>
+          <h3>Tools:</h3>
           Figma, Notion, Miro, Slack
+          <h3>Methods:</h3>
+          Design Thinking, User Research, Wireframing, Prototyping Human Centered Design, How Might We
+          <h3>Soft Skills:</h3>
+          Curious, Creative, Collaborative, Adaptable, Communicative, Organized, Detail-Oriented, Problem-Solver, Empathetic
+          <h3>UX Skills:</h3>
+         User Research, Personas, User Journey Mapping, lo-fi Wireframing, hi-fi Prototyping, Usability Testing, Information Architecture, Interaction Design, Visual Design, Design Systems, UX Writing
           <h3>Timeline:</h3>
           Januari – April 2024 (8 weeks)
           <div className="luxbite-description-description">

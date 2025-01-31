@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="contact">
                 <div className="divider"></div>
                 <div className="contactText">
-                  <h2>Let’s Collaborate</h2>
+                  Let’s Collaborate
                 </div>
                 <div className="footer-contact">
                   <div className="contact-item">

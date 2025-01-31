@@ -38,7 +38,7 @@ const LandingPage = () => {
           <p>(Also Niloofar)</p>
           <br />
           <h1 className="secondTitle">
-            I am a junior UX/UI Designer & Frontend Developer
+            A junior UX/UI Designer & Frontend Developer
           </h1>
           <h3 className="thirdTitle">
             {" "}
@@ -59,7 +59,7 @@ const LandingPage = () => {
         </div>
         <br />
         <br />
-        <h2>Projects</h2>
+        <h3 className="common-title">Projects</h3>
       </div>
       <section id="section-work" className="section-projects">
         <div className="luxbite-project">
@@ -106,7 +106,7 @@ const LandingPage = () => {
       <section id="section-about" className="section-about">
         <div className="aboutme-landingPage">
           <div className="aboutme-header">
-            <h2>About me</h2>
+            <h3 className="common-title">About me</h3>
           </div>
           <p>
             I’m Niloo, a UX/UI designer based in Stockholm, Sweden. Originally
@@ -131,7 +131,7 @@ const LandingPage = () => {
       <section id="section-cv" className="section-cv">
         <div className="cv-div">
           <div className="cv-border-div">
-            <h2>CV</h2>
+            <h3 className="common-title">CV</h3>
             <a href={cvPdf} target="_blank">
               Click to view
             </a>

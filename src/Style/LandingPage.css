@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 .LandingPage {
-  font: 20px "Outfit", sans-serif;
+  font-family: "Outfit", sans-serif;
   color: #0e0670;
   background: linear-gradient(80deg, #eaf6fd, #ffede7, #c5e6fa, #d9e1ff);
   animation: AnimationName 15s ease infinite;
@@ -249,7 +249,7 @@
 }
 
 .cv-border-div h2 {
-  font-size: 2rem;
+  font-size: 20px;
 }
 
 .cv-img {
@@ -355,6 +355,14 @@ a:hover {
   padding: 20px;
   padding-bottom: 10px;
 }
+
+
+.common-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
 
 @media only screen and (max-width: 1400px) and (min-width: 768px) {
   .cv-img {
@@ -463,7 +471,6 @@ a:hover {
   }
 
   .cv-border-div {
-    font-size: 12px;
     margin: 0 auto;
     padding: 20px;
     width: 90%;
@@ -483,7 +490,10 @@ a:hover {
     margin-top: 48px;
     margin-bottom: 100px;
   }
-
+  .common-title {
+    font-size: 22px;
+    font-weight: 700;
+  }
   .contactText {
     font-size: 12px;
     padding: 10px;
