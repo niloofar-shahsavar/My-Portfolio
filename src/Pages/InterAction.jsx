@@ -12,7 +12,7 @@ function InterAction() {
     <div>
       <div className="interAction-page">
         <h1>InterAction</h1>
-        <video className="interActionVideo" autoPlay loop muted aria-label="InterAction Project Video">
+        <video className="interActionVideo" autoPlay loop muted playsInline aria-label="InterAction Project Video">
           <source src={InterActionVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

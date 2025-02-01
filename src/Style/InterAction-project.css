@@ -39,6 +39,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 60px;
+  object-fit: cover;
+  pointer-events: none;
 }
 
 .interAction-description {
