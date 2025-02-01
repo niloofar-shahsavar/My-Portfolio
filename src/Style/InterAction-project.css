@@ -39,7 +39,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 60px;
-  object-fit: cover;
+  object-fit: contain;
   pointer-events: none;
 }
 
