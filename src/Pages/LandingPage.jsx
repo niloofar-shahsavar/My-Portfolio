@@ -10,6 +10,7 @@ import RandomStuff from "../assets/randomstuff-landing.png";
 import arrowIcon from "../assets/Arrow.svg";
 import blog from "../assets/Portfolio-landing.png";
 import InterAction from "../assets/InterAction.png";
+import HPappen from "../assets/Coming-soon.png";
 import "../Style/Footer.css";
 
 const LandingPage = () => {
@@ -99,6 +100,17 @@ const LandingPage = () => {
             <p>InterAction</p>
           </RouterLink>
         </div>
+
+        <div className="HP-appen-project">
+          <RouterLink to="/HPAppen">
+            {" "}
+        <img className="HP-appen-img" src={HPappen} /> 
+          </RouterLink>
+          <RouterLink to="/HPAppen" className="HP-appen-title">
+            <p>HP-appen</p>
+          </RouterLink>
+        </div>
+
       </section>
       <div className="arrowIconSeparator">
         <img className="arrowIconMid" src={arrowIcon} alt="Arrow Icon" />

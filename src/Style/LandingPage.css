@@ -177,6 +177,29 @@
 .interAction-img:hover {
   transform: scale(1.1);
 }
+
+.HP-appen-project {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.HP-appen-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.HP-appen-img:hover {
+  transform: scale(1.1);
+}
+
+.HP-appen-title {
+  text-decoration: none;
+}
+
+
 .section-about {
   text-align: left;
   margin-bottom: 100px;
@@ -404,7 +427,8 @@ a:hover {
   .interAction-img,
   .cv-img,
   .aboutme-landingPage,
-  .cv-div {
+  .cv-div
+  .HP-appen-img {
     transition: none !important;
   }
 
@@ -414,7 +438,8 @@ a:hover {
   .interAction-img:hover,
   .cv-img:hover,
   .aboutme-landingPage:hover,
-  .cv-div:hover {
+  .cv-div:hover,
+  .HP-appen-img:hover {
     transform: none !important;
   }
 
@@ -440,9 +465,18 @@ a:hover {
   .luxbite-img-landing,
   .fairyTailor-img,
   .random-stuff-img,
+  .myBlog-img
+  .HP-appen-img {
+    width: 75%;
+  }
   .myBlog-img {
     width: 75%;
   }
+
+  .HP-appen-img {
+    width: 75%;
+  }
+
   .interAction-img {
     width: 33%;
   }
