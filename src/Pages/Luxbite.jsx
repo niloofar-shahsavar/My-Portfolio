@@ -94,7 +94,7 @@ function Luxbite() {
         </div>
 
         <div className="project-section">
-          <h3>🎯 User Research & Market Analysis</h3>
+          <h3>User Research & Market Analysis</h3>
           <ul>
             <li>
               Studied competitors like Svarta Lådan and BetterFeast to identify
@@ -130,7 +130,7 @@ function Luxbite() {
           </p>
         </div>
         <div className="project-section">
-          <h3>📐 Wireframing & Prototyping</h3>
+          <h3>Wireframing & Prototyping</h3>
           <p>
             <ul>
               <li>
