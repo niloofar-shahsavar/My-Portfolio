@@ -49,14 +49,14 @@ const LandingPage = () => {
         </div>
         <div>
           {" "}
-          <img className="hero-image" src={Subjectc} />{" "}
+          <img className="hero-image" src={Subjectc} alt="Portrait of Niloofar Shahsavar, UX/UI designer" />{" "}
         </div>
 
         <br />
         <br />
         <br />
         <div>
-          <img className="arrowIcon" src={arrowIcon} alt="Arrow Icon" />
+          <img className="arrowIcon" src={arrowIcon} alt=" " aria-hidden="true" />
         </div>
         <br />
         <br />
@@ -65,7 +65,7 @@ const LandingPage = () => {
       <section id="section-work" className="section-projects">
         <div className="luxbite-project">
           <RouterLink to="/luxbite-project">
-            <img className="luxbite-img-landing" src={project1} />
+            <img className="luxbite-img-landing" src={project1} alt="LuxeBite project - UX/UI design case study" />
           </RouterLink>{" "}
           <RouterLink to="/luxbite-project" className="luxbite-title">
             <p>LuxeBite</p>
@@ -74,7 +74,7 @@ const LandingPage = () => {
         <div className="random-stuff-project">
           <RouterLink to="/randomStuff">
             {" "}
-            <img className="random-stuff-img" src={RandomStuff} />
+            <img className="random-stuff-img" src={RandomStuff} alt="RandomStuff project - UX/UI design case study"/>
           </RouterLink>
           <RouterLink to="/randomStuff" className="random-stuff-title">
             <p>Random Stuff</p>
@@ -84,7 +84,7 @@ const LandingPage = () => {
         <div className="myBlog-project">
           <RouterLink to="/project3">
             {" "}
-            <img className="myBlog-img" src={blog} />
+            <img className="myBlog-img" src={blog} alt="My portfolio project - UX/UI design case study" />
           </RouterLink>
           <RouterLink to="/project3" className="myBlog-title">
             <p>My Portfolio</p>
@@ -94,7 +94,7 @@ const LandingPage = () => {
         <div className="interAction-project">
           <RouterLink to="/interaction">
             {" "}
-            <img className="interAction-img" src={InterAction} />
+            <img className="interAction-img" src={InterAction} alt="InterAction project - UX/UI design case study" />
           </RouterLink>
           <RouterLink to="/interaction" className="interAction-title">
             <p>InterAction</p>
@@ -104,7 +104,7 @@ const LandingPage = () => {
         <div className="HP-appen-project">
           <RouterLink to="/HPAppen">
             {" "}
-        <img className="HP-appen-img" src={HPappen} /> 
+        <img className="HP-appen-img" src={HPappen} alt="HP-appen Project - UX/UI design case study" /> 
           </RouterLink>
           <RouterLink to="/HPAppen" className="HP-appen-title">
             <p>HP-appen</p>
@@ -113,7 +113,7 @@ const LandingPage = () => {
 
       </section>
       <div className="arrowIconSeparator">
-        <img className="arrowIconMid" src={arrowIcon} alt="Arrow Icon" />
+        <img className="arrowIconMid" src={arrowIcon} alt=" " aria-hidden="true" />
       </div>
       <section id="section-about" className="section-about">
         <div className="aboutme-landingPage">
@@ -138,17 +138,17 @@ const LandingPage = () => {
         </div>
       </section>
       <div className="arrowIconSeparator">
-        <img className="arrowIcon" src={arrowIcon} alt="Arrow Icon" />
+        <img className="arrowIcon" src={arrowIcon} alt=" " aria-hidden="true" />
       </div>
       <section id="section-cv" className="section-cv">
         <div className="cv-div">
           <div className="cv-border-div">
             <h3 className="common-title">CV</h3>
             <a href={cvPdf} target="_blank">
-              Click to view
+              Click to view CV
             </a>
             <a href={cvPdf} target="_blank">
-              <img className="cv-img" src={cvImage} alt="CV" />
+              <img className="cv-img" src={cvImage} alt="Niloofar Shahsavar’s CV" />
             </a>
           </div>
         </div>

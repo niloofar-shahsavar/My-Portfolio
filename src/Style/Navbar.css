@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+.skip-link {
+  position: absolute;
+  top: -40px; /* Moves it above the viewport */
+  left: 10px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  z-index: 100;
+  transition: top 0.3s ease-in-out;
+}
+
+.skip-link:focus {
+  top: 10px; /* Moves it into view when focused */
+}
+
+
 .navbar {
   display: flex;
   font-family: "Outfit", sans-serif;

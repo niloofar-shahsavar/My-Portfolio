@@ -22,13 +22,13 @@ const Footer = () => {
             <div>
             <div class="arrow-up-container">
             <button onClick={smoothScrollToTop} className="arrow-up-button">
-                <img className="arrow-up" src={arrowUp} alt="Scroll to Top" />
+                <img className="arrow-up" src={arrowUp} alt="Scroll to Top button" />
                 </button>
               <div>Scroll to top</div>
             </div>
           </div>
           <div className="footerdesign">
-            <img src={Foooterdesign} alt="CV" />
+            <img src={Foooterdesign} alt="" aria-hidden="true" />
           </div>
     
           <section id="section-contact" className="section-contact">
