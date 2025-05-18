@@ -199,6 +199,29 @@
   text-decoration: none;
 }
 
+.Edaider-project {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Edaider-logo {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Edaider-title {
+  text-decoration: none;
+}
+.Edaider-logo:hover {
+  transform: scale(1.1);
+}
+.Edaider-project {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 .section-about {
   text-align: left;
@@ -477,6 +500,9 @@ a:hover {
     width: 75%;
   }
 
+  .Edaider-logo {
+    width: 75%;
+  }
   .interAction-img {
     width: 33%;
   }

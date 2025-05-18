@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.HPAppenPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+  color: #0e0670;
+  background-color: #f2f1f5;
+  padding: 40px;
+  margin: 150px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  text-align: center;
+}
+
+.HPAppenPage h1 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.HPAppenPage a {
+  color: #0e0670;
+  font-weight: 500;
+}
+
+.HPAppenPage a:hover {
+  text-decoration: underline;
+}
+
+.hpappen-description {
+  font-family: "Outfit", sans-serif;
+  color: #0e0670;
+  background-color: #f2f1f5;
+  padding: 40px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+}
+
+.hpappen-descriptionTitle {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.project-section {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .HPAppenPage {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .hpappen-description {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .HPAppenPage h1 {
+    font-size: 28px;
+  }
+}

@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
-import cvImage from "../assets/CV.png";
-import cvPdf from "../assets/CV.pdf";
+import cvImage from "../assets/CV_English.png";
+import cvPdf from "../assets/CV_English2.pdf";
 import Subjectc from "../assets/Hero.jpeg";
 import project1 from "../assets/luxbite-landing.jpg";
 import RandomStuff from "../assets/randomstuff-landing.png";
@@ -11,7 +11,9 @@ import arrowIcon from "../assets/Arrow.svg";
 import blog from "../assets/Portfolio-landing.png";
 import InterAction from "../assets/InterAction.png";
 import HPappen from "../assets/Coming-soon.png";
+import Edaider from "../assets/Edaider-logo.jpg";
 import "../Style/Footer.css";
+
 
 const LandingPage = () => {
   const location = useLocation();
@@ -108,6 +110,15 @@ const LandingPage = () => {
           </RouterLink>
           <RouterLink to="/HPAppen" className="HP-appen-title">
             <p>HP-appen</p>
+          </RouterLink>
+        </div>
+        <div className="Edaider-project">
+          <RouterLink to="/Edaider">
+            {" "}
+        <img className="Edaider-logo" src={Edaider} alt="Edaider Project - UX/UI design case study" /> 
+          </RouterLink>
+          <RouterLink to="/Edaider" className="Edaider-title">
+            <p>EdAider</p>
           </RouterLink>
         </div>
 

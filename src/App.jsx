@@ -12,6 +12,7 @@ import InterAction from "./Pages/InterAction";
 import Footer from "./components/Footer";
 import "./Style/Footer.css";
 import HPAppen from "./Pages/HPAppen";
+import Edaider from "./Pages/Edaider";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/randomStuff" element={<RandomStuff />} />
         <Route path="/project3" element={<Project3 />} />
         <Route path="/HPAppen" element={<HPAppen />} />
+        <Route path="/Edaider" element={<Edaider />} />
         <Route path="/about" element={<About />} />
         <Route path="/interaction" element={<InterAction />} />
       </Routes>
