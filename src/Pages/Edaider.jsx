@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../Style/EdAider.css";
+import "../Style/Edaider.css";
 
 const Edaider = () => {
     useEffect(() => {
