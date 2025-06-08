@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "../Style/Edaider.css";
+import thesis from "../assets/Examensarbete_Niloofar-Shahsavar_Juni2025.pdf";
 
 const Edaider = () => {
     useEffect(() => {
@@ -8,15 +9,16 @@ const Edaider = () => {
   return (
     <div> <div className="EdAiderPage"> 
  <h1>EdAider – Case Study</h1>
-        <p>
-          <a
-            href="https://www.figma.com/your-link-here"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View project in Figma
-          </a>
-        </p>
+      <section id="section-thesis" className="section-thesis">
+              <div className="thesis-div">
+                <div className="thesis-border-div">
+                  <h3 className="common-title">Thesis</h3>
+                  <a href={thesis} target="_blank">
+                    Click to view My thesis
+                  </a>
+                </div>
+              </div>
+            </section>
       </div>
 
       <div className="edaider-description">
