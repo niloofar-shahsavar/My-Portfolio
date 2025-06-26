@@ -55,14 +55,15 @@
 .nav-button,
 .nav-button-up {
   display: inline-block;
-  padding: 8px 20px;
-  margin: 4px;
+  padding: 6px 12px;
+  margin: 2px;
   color: #0e0670;
   text-align: center;
   border-radius: 28px;
   transition: background-color 0.3s ease;
   width: 90px;
   cursor: pointer;
+  font-size: 12px;
 }
 
 .nav-button {
@@ -88,7 +89,7 @@
 
 .logo {
   display: flex;
-  width: 100px;
+  width: 80px;
   padding-top: 16px;
   padding-left: 16px;
   padding-bottom: 20px;

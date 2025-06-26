@@ -4,7 +4,7 @@ import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
 import cvImage from "../assets/CV_English.png";
 import cvPdf from "../assets/CV_English2.pdf";
-import Subjectc from "../assets/Hero.jpeg";
+import Subjectc from "../assets/Hero2.jpeg";
 import project1 from "../assets/luxbite-landing.jpg";
 import RandomStuff from "../assets/randomstuff-landing.png";
 import arrowIcon from "../assets/Arrow.svg";

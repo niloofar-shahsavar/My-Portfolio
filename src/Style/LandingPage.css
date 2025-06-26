@@ -30,19 +30,19 @@
 }
 
 .firstTitle {
-  font-size: 50px;
-  font-weight: 900;
+  font-size: 40px;
+  font-weight: 700;
   text-align: center;
 }
 
 .secondTitle {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
   text-align: center;
 }
 
 .thirdTitle {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 200;
   text-align: center;
 }
