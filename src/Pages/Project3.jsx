@@ -23,7 +23,7 @@ function Project3() {
           trendy design choice!
         </p>
         <div className="sign-pic-div">
-          <img className="sign-pic" src={sign}/>
+          <img className="sign-pic" src={sign} alt="Under construction sign" />
           </div>
          <div className="animationButton-div"><button className="animation-button" onClick={toggleVisibility}> {isVisible ? "Hide Animation" : "Show Animation"}</button></div>
       </div>

@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
-import cvImage from "../assets/CV_English.png";
-import cvPdf from "../assets/CV_English2.pdf";
+import cvImage from "../assets/CV_Niloo.jpg";
+import cvPdf from "../assets/CV_Niloo.pdf";
 import Subjectc from "../assets/Hero2.jpeg";
 import project1 from "../assets/luxbite-landing.jpg";
 import RandomStuff from "../assets/randomstuff-landing.png";
@@ -155,11 +155,11 @@ const LandingPage = () => {
         <div className="cv-div">
           <div className="cv-border-div">
             <h3 className="common-title">CV</h3>
-            <a href={cvPdf} target="_blank">
+            <a href={cvPdf} target="_blank" rel="noopener noreferrer">
               Click to view CV
             </a>
-            <a href={cvPdf} target="_blank">
-              <img className="cv-img" src={cvImage} alt="Niloofar Shahsavar’s CV" />
+            <a href={cvPdf} target="_blank" rel="noopener noreferrer">
+              <img className="cv-img" src={cvImage} alt="Niloofar Shahsavar's CV" />
             </a>
           </div>
         </div>

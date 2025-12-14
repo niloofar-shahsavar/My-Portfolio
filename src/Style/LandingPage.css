@@ -48,10 +48,13 @@
 }
 
 .hero-image {
-  width: 20%;
-  border-radius: 100px;
-  padding: 20px;
-  border: #d2d0e4 solid 1px;
+ width: min(320px, 90%);
+  max-width: 320px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform var(--transition-slow);
+  padding: 10px;
   filter: drop-shadow(0 0 0.6rem color-mix(in srgb, #1749be 100%, transparent));
 }
 

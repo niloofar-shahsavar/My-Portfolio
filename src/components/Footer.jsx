@@ -20,7 +20,7 @@ const Footer = () => {
     <div>
     <div className="Footer">
             <div>
-            <div class="arrow-up-container">
+            <div className="arrow-up-container">
             <button onClick={smoothScrollToTop} className="arrow-up-button">
                 <img className="arrow-up" src={arrowUp} alt="Scroll to Top button" />
                 </button>
@@ -40,20 +40,21 @@ const Footer = () => {
                 </div>
                 <div className="footer-contact">
                   <div className="contact-item">
-                  <a href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/" target="_blank">
+                  <a href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/" target="_blank" rel="noopener noreferrer">
                     <img className="icon" src={LinkdInIcon} alt="LinkedIn Icon" /> </a>
                     <a
                       href="https://www.linkedin.com/in/niloofar-shahsavar-997262137/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       LinkedIn
                     </a>
                   </div>
                   <div className="contact-item">
-                  <a href="https://github.com/niloofar-shahsavar" target="_blank">
+                  <a href="https://github.com/niloofar-shahsavar" target="_blank" rel="noopener noreferrer">
                     <img className="icon" src={GitHubIcon} alt="GitHub Icon" />
                     </a>
-                    <a href="https://github.com/niloofar-shahsavar" target="_blank">
+                    <a href="https://github.com/niloofar-shahsavar" target="_blank" rel="noopener noreferrer">
                       GitHub
                     </a>
                   </div>
@@ -71,7 +72,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="copyRight">
-              <p>Copyright © Niloofar shahsavar 2024. All rights reserved.</p>
+              <p>Copyright © Niloofar shahsavar 2025. All rights reserved.</p>
             </div>
           </section>
         </div>

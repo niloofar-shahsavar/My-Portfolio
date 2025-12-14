@@ -5,7 +5,6 @@ import Luxbite from "./Pages/Luxbite";
 import Navbar from "./components/Navbar";
 import RandomStuff from "./Pages/RandomStuff";
 import Project3 from "./Pages/Project3";
-import Project4 from "./Pages/HPAppen";
 import "./Style/Navbar.css";
 import About from "./Pages/About";
 import InterAction from "./Pages/InterAction";
