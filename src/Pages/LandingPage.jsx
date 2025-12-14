@@ -41,12 +41,11 @@ const LandingPage = () => {
           <p>(Also Niloofar)</p>
           <br />
           <h1 className="secondTitle">
-            A junior UX/UI Designer & Frontend Developer
+            A junior AI Developer
           </h1>
           <h3 className="thirdTitle">
             {" "}
-            As a designer and developer, I understand that the perfect <br />{" "}
-            user interface should look good and work even better
+            Design-driven AI developer working with SQL and data-driven systems,<br />{" "} combining backend AI development with thoughtful frontend experiences.
           </h3>
         </div>
         <div>
