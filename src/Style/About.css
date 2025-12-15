@@ -3,18 +3,44 @@
 .about-me-div {
 display: flex;
 justify-content: center;
+font-family: "Outfit", sans-serif;
+color: rgba(17, 11, 80, 0.85);
 }
 
 
 
 .hero-text{
-  font: 20px "Outfit", sans-serif;
-  color: #0e0670;
-  animation: AnimationName 15s ease infinite;
-  border-radius: 10px;
-  padding: 60px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 190px;
-  background: radial-gradient(141.42% 141.42% at 100% 0%, #fff6, #fff0), radial-gradient(140.35% 140.35% at 100% 94.74%, #bd34fe, #bd34fe00), radial-gradient(89.94% 89.94% at 18.42% 15.79%, #41d1ff, #41d1ff00);
-  box-shadow: 0 1px #ffffffbf inset;
+font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+  padding: 40px;
+  border-radius: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  border: #dcdbe4 solid 1px;
+  padding-top: 0px;
+  backdrop-filter: blur(100px);
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 100px;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-bottom: 200px;
+}
+
+
+.aboutme-landingPage a {
+  font-weight: 500;
+}
+
+.aboutme-landingPage:hover {
+  transform: scale(1.1);
+}
+
+.aboutme-header {
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 48px;
+  margin-top: 48px;
 }

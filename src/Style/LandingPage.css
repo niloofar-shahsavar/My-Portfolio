@@ -1,8 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+:root {
+  /* Typography Scale - More modest sizing */
+  --font-xs: 0.8125rem; /* 13px */
+  --font-sm: 0.9375rem; /* 15px */
+  --font-base: 1.0625rem; /* 17px */
+  --font-md: 1.125rem; /* 18px */
+  --font-lg: 1.375rem; /* 22px */
+  --font-xl: 1.75rem; /* 28px */
+  --font-2xl: 3rem; /* 48px */
+
+  /* Spacing Scale - More refined */
+  --space-xs: 0.5rem; /* 8px */
+  --space-sm: 1rem; /* 16px */
+  --space-md: 1.5rem; /* 24px */
+  --space-lg: 2rem; /* 32px */
+  --space-xl: 3rem; /* 48px */
+  --space-2xl: 4rem; /* 64px */
+  --space-3xl: 5rem; /* 80px */
+
+  /* Colors */
+  --color-primary: #0e0656;
+  --color-text: rgba(17, 11, 80, 0.85);
+  --color-text-light: rgba(14, 6, 112, 0.65);
+  --color-border: #d2d0e4;
+  --color-border-light: #dcdbe4;
+  --color-shadow: rgba(23, 73, 190, 0.1);
+
+  /* Layout */
+  --content-width: 800px;
+  --section-width: 1000px;
+
+  /* Transitions */
+  /* --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
 .LandingPage {
   font-family: "Outfit", sans-serif;
-  color: #0e0670;
+  color: var(--color-text);
   background: linear-gradient(80deg, #eaf6fd, #ffede7, #c5e6fa, #d9e1ff);
   animation: AnimationName 15s ease infinite;
   padding-top: 120px;
@@ -22,33 +57,38 @@
 
 .hero-section {
   text-align: center;
+  color: var(--color-primary);
 }
 
 .hero-text-landing {
   text-align: center;
   padding: 20px;
+  color: var(--color-primary);
 }
 
 .firstTitle {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+  color: var(--color-primary);
 }
 
 .secondTitle {
   font-size: 24px;
   font-weight: 400;
   text-align: center;
+  color: var(--color-primary);
 }
 
 .thirdTitle {
   font-size: 16px;
   font-weight: 200;
   text-align: center;
+  color: var(--color-primary);
 }
 
 .hero-image {
- width: min(320px, 90%);
+  width: min(320px, 90%);
   max-width: 320px;
   aspect-ratio: 1;
   object-fit: cover;
@@ -69,7 +109,7 @@
   margin: 40px;
   text-align: center;
   border-radius: 28px;
-  transition: background-color 0.3s ease;
+  /* transition: background-color 0.3s ease; */
   cursor: pointer;
   color: #0e0670;
   font-size: larger;
@@ -228,12 +268,15 @@
 
 .section-about {
   text-align: left;
-  margin-bottom: 100px;
+  margin-bottom: var(--space-3xl);
+  padding: 0 var(--space-lg);
+  /* margin-bottom: 100px; */
 }
 
 .aboutme-landingPage {
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 400;
+  line-height: 1.8;
   text-align: left;
   padding: 40px;
   border-radius: 28px;
@@ -245,16 +288,11 @@
   backdrop-filter: blur(100px);
   background-color: rgba(255, 255, 255, 0.1);
   margin-top: 100px;
-  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   margin-bottom: 200px;
 }
 
-.aboutme-landingPage a {
-  font-weight: 500;
-}
-
-.aboutme-landingPage:hover {
-  transform: scale(1.1);
+.aboutme-landingPage {
+  transform: none !important;
 }
 
 .aboutme-header {
@@ -269,7 +307,7 @@
   text-align: center;
   margin-top: 100px;
   padding-bottom: 80px;
-  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  /* transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1); */
 }
 
 .cv-div {
@@ -287,12 +325,12 @@
   backdrop-filter: blur(100px);
   background-color: rgba(255, 255, 255, 0.1);
   margin-top: 100px;
-  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  /* transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1); */
 }
 
-.cv-div:hover {
+/* .cv-div:hover {
   transform: scale(1.1);
-}
+} */
 .cv-border-div a {
   text-decoration: none;
 }
@@ -302,7 +340,7 @@
 }
 
 .cv-img {
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease; */
   width: 80%;
   max-width: 600px;
   margin: 0 auto;
@@ -405,13 +443,11 @@ a:hover {
   padding-bottom: 10px;
 }
 
-
 .common-title {
   font-size: 32px;
   font-weight: 700;
   text-align: center;
 }
-
 
 @media only screen and (max-width: 1400px) and (min-width: 768px) {
   .cv-img {
@@ -452,9 +488,10 @@ a:hover {
   .myBlog-img,
   .interAction-img,
   .cv-img,
-  .aboutme-landingPage,
-  .cv-div
-  .HP-appen-img {
+  .aboutme-landingPage {
+    transform: none !important;
+  }
+  .cv-div .HP-appen-img {
     transition: none !important;
   }
 
@@ -491,8 +528,7 @@ a:hover {
   .luxbite-img-landing,
   .fairyTailor-img,
   .random-stuff-img,
-  .myBlog-img
-  .HP-appen-img {
+  .myBlog-img .HP-appen-img {
     width: 75%;
   }
   .myBlog-img {

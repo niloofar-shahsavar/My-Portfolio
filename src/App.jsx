@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import "./Style/Footer.css";
 import HPAppen from "./Pages/HPAppen";
 import Edaider from "./Pages/Edaider";
+import Blog from "./Pages/Blog"
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           }
         />
         <Route path="/luxbite-project" element={<Luxbite />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/randomStuff" element={<RandomStuff />} />
         <Route path="/project3" element={<Project3 />} />
         <Route path="/HPAppen" element={<HPAppen />} />
