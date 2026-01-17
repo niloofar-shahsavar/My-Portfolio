@@ -19,11 +19,11 @@ function RandomStuff() {
         part of the shopping flow, as well as pagination and product filtering,
         which helped us achieve the highest grade for the course.
       </p>
-      <p>
+      <button className="VisitSite">
         <a href="https://random-stuff-webshop.netlify.app/" target="_blank">
-          Visit our website
+          Visit the website
         </a>
-      </p>
+      </button>
     </div></div>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
+import { useState } from "react";
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
 import cvImage from "../assets/CV_Niloo.jpg";
@@ -16,8 +17,11 @@ import "../Style/Footer.css";
 import blog2 from "../assets/blog.png"
 
 const LandingPage = () => {
+  const [activeCategory, setActiveCategory] = useState ("dev");
   const location = useLocation();
-  const isLandingPage = location.pathname === "/";
+
+const isLandingPage = location.pathname === "/";
+
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.replace("#", ""));
@@ -71,8 +75,24 @@ const LandingPage = () => {
         <br />
         <br />
         <h3 className="common-title">Projects</h3>
+         <div className="project-tabs">
+          <button
+            className={`tab-button ${activeCategory === "dev" ? "active" : ""}`}
+            onClick={() => setActiveCategory("dev")}
+          >
+            Development
+          </button>
+          <button
+            className={`tab-button ${activeCategory === "ux" ? "active" : ""}`}
+            onClick={() => setActiveCategory("ux")}
+          >
+            UX/UI
+          </button>
+        </div>
       </div>
       <section id="section-work" className="section-projects">
+        {activeCategory === "dev" && (
+          <>
         <div className="random-stuff-project">
           <RouterLink to="/blog">
             {" "}
@@ -113,6 +133,14 @@ const LandingPage = () => {
             <p>My Portfolio</p>
           </RouterLink>
         </div>
+        </>
+        )}
+
+        {
+          activeCategory === "ux" && (
+        <> 
+
+
         <div className="luxbite-project">
           <RouterLink to="/luxbite-project">
             <img
@@ -165,6 +193,8 @@ const LandingPage = () => {
             <p>EdAider</p>
           </RouterLink>
         </div>
+        </>
+          )}
       </section>
       <div className="arrowIconSeparator">
         <img

@@ -13,6 +13,8 @@ import "./Style/Footer.css";
 import HPAppen from "./Pages/HPAppen";
 import Edaider from "./Pages/Edaider";
 import Blog from "./Pages/Blog"
+import UXProjects from "./Pages/UXProjects";
+import DevProjects from "./Pages/DevProjects";
 
 function App() {
   return (
@@ -28,14 +30,21 @@ function App() {
             </>
           }
         />
+        
+        <Route path="/ux-projects" element={<UXProjects />} />
+        <Route path="/dev-project" element={<DevProjects/>} />
+
+
         <Route path="/luxbite-project" element={<Luxbite />} />
+        <Route path="/HPAppen" element={<HPAppen />} />
+        <Route path="/Edaider" element={<Edaider />} />
+        <Route path="/interaction" element={<InterAction />} />
+        
         <Route path="/blog" element={<Blog />} />
         <Route path="/randomStuff" element={<RandomStuff />} />
         <Route path="/project3" element={<Project3 />} />
-        <Route path="/HPAppen" element={<HPAppen />} />
-        <Route path="/Edaider" element={<Edaider />} />
+     
         <Route path="/about" element={<About />} />
-        <Route path="/interaction" element={<InterAction />} />
       </Routes>
       <Footer />
     </BrowserRouter>
