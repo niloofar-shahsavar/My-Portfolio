@@ -55,15 +55,15 @@
 .nav-button,
 .nav-button-up {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 8px 12px;
   margin: 2px;
   color: #0e0670;
   text-align: center;
   border-radius: 28px;
   transition: background-color 0.3s ease;
-  width: 90px;
+  width: 110px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .nav-button {
@@ -89,7 +89,8 @@
 
 .logo {
   display: inline-block;  
-  width: 80px;
+  width: 60px;
+  height: 60px;
   padding-top: 16px;
   padding-left: 16px;
   padding-bottom: 20px;
