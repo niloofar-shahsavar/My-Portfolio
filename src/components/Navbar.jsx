@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import { HashLink as RouterHashLink } from "react-router-hash-link";
 import "../Style/Navbar.css";
-import logo from "../assets/new-logo.svg";
+import logo from "../assets/Frame.png";
 
 const Navbar = () => {
   const location = useLocation();

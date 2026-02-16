@@ -1,6 +1,7 @@
-import React, { useEffect,useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../Style/WIP.css";
+// import Unitconverter from "../components/tools/Unitconverter";
 
 function Project3() {
   useEffect(() => {
@@ -10,27 +11,35 @@ function Project3() {
   const [isVisible, setIsVisible] = useState(true);
 
   const toggleVisibility = () => {
-   setIsVisible((prev) => !prev);
-  }; 
+    setIsVisible((prev) => !prev);
+  };
 
   return (
     <div>
-      <div className="portfolio-description">
-        <p>
-        </p>
-         <div className="animationButton-div"><button className="animation-button" onClick={toggleVisibility}> {isVisible ? "Hide Animation" : "Show Animation"}</button></div>
-      </div>
-      {isVisible && (
-      <div className="rotate-animation">
-        <div className="background-mic">
-          <div className="mic">
-            <span className="mic-text"></span>
-            <i className="mic-icon"></i>
-            <div className="mic-shadow"></div>
+      {/* <div className=""><Unitconverter /></div> */}
+      <div className="tw-pt-20 tw-mt-20">
+        {" "}
+        <div className="portfolio-description">
+          <p></p>
+          <div className="animationButton-div">
+            <button className="animation-button" onClick={toggleVisibility}>
+              {" "}
+              {isVisible ? "Hide Animation" : "Show Animation"}
+            </button>
           </div>
         </div>
+        {isVisible && (
+          <div className="rotate-animation">
+            <div className="background-mic">
+              <div className="mic">
+                <span className="mic-text"></span>
+                <i className="mic-icon"></i>
+                <div className="mic-shadow"></div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
-      )}
     </div>
   );
 }

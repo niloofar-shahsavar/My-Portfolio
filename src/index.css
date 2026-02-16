@@ -6,3 +6,8 @@ body {
   background: linear-gradient(80deg, #eaf6fd, #ffede7, #c5e6fa, #d9e1ff);
   height: 100%; 
 }
+
+/* Your existing CSS stays above */
+
+@tailwind components;
+@tailwind utilities;

@@ -17,7 +17,7 @@
 }
 
 .portfolio-description {
-  margin-top: 200px;
+  margin-top: 600px;
   text-align: center;
   font: 18px "Outfit", sans-serif;
   color: #0e0670;
@@ -57,26 +57,21 @@
   color: #f5f5f5;
   opacity: 0.8;
   margin-top: 500px;
+  position: relative;
 }
 
 .mic {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 50%;
+  top: calc(50% + 100px);
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  
   font-family: "Outfit", sans-serif;
   font-size: 24px;
   z-index: 3;
-  margin-top: 100px;
 }
 
 .mic::before,
@@ -98,10 +93,10 @@
 }
 
 .mic::after {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   background-color: #41a17959;
-  animation: circle-size 5s linear infinite alternate;
+  animation: circle-size 8s linear infinite alternate;
 }
 
 .mic-icon::before,
@@ -114,32 +109,32 @@
 
 .mic-icon::before {
   width: 2px;
-  height: 5px;
-  top: calc(100% + 1px);
+  height: 2px;
+  top: calc(10% + 1px);
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-20%, 0);
 }
 
 .mic-icon::after {
-  border: 2px solid;
-  width: 8px;
-  height: 18px;
-  left: 50%;
+  border: 1px solid;
+  width: 4px;
+  height: 1px;
+  left: 20%;
   top: -10px;
-  border-radius: 4px;
-  transform: translate(-50%, 0);
+  border-radius: 2px;
+  transform: translate(-20%, 0);
 }
 
 .mic-shadow {
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 20%;
   border-radius: 100%;
   z-index: 1;
   box-shadow: 10px -55px 30px 15px #9dd6c2, 24px -10px 47px 10px #72ae6d,
-    -21px -25px 97px 10px #4993a1, 51px 5px 17px 10px #4a7e9c,
+    -21px -25px 97px 10px #4993a1, 51px 5px 17px 10px #61ffc5,
     3px 2px 77px 10px #8ec569;
   animation: shadow-rotate 5s linear infinite;
   transform-origin: center;
@@ -151,8 +146,8 @@
     height: 1%;
   }
   to {
-    width: 800px;
-    height: 800px;
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -166,7 +161,7 @@
 }
 
 .rotate-animation {
-  margin-bottom: 1000px;
+  margin-bottom: 1px;
 }
 
 .mic-text {
