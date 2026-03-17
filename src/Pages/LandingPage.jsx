@@ -3,7 +3,7 @@ import { Link as RouterLink, useLocation } from "react-router-dom";
 import { useState } from "react";
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
-import cvImage from "../assets/CV_Niloo.jpg";
+import cvImage from "../assets/CV.png";
 import cvPdf from "../assets/CV_Niloo.pdf";
 import Subjectc from "../assets/hero-img.jpg";
 import project1 from "../assets/luxbite-landing.jpg";
