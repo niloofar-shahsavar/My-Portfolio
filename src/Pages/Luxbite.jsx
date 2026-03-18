@@ -11,173 +11,203 @@ function Luxbite() {
   }, []);
 
   return (
-    <div>
-      <div className="LuxebitePage">
-        <h1>LuxeBite</h1>
-        <img className="luxbite-img" src={project1} alt="Luxbite Project" />
-        <p>
-          <a
-            href="https://www.figma.com/proto/0WcU52ESl9ufsiJr8cbURJ/VG-LuxeBite?node-id=0-1&t=yJ5YrCW6cVj5nVBw-1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Visit the project in Figma
-          </a>
-        </p>
-      </div>
-      <div className="luxbite-description">
-        <div className="luxbite-descriptionTitle">
-          <h2>LuxeBite – Elevating Meal Delivery to a Luxury Experience</h2>
-        </div>
-        <div className="project-section">
-          <h3>Project Type:</h3>
-          UX/UI Design, User Research
-          <h3>Role:</h3>
-          UX/UI Designer
-          <h3>Tools:</h3>
-          Figma, Notion, Miro, Slack
-          <h3>Methods:</h3>
-          Design Thinking, User Research, Wireframing, Prototyping Human Centered Design, How Might We
-          <h3>Soft Skills:</h3>
-          Curious, Creative, Collaborative, Adaptable, Communicative, Organized, Detail-Oriented, Problem-Solver, Empathetic
-          <h3>UX Skills:</h3>
-         User Research, Personas, User Journey Mapping, lo-fi Wireframing, hi-fi Prototyping, Usability Testing, Information Architecture, Interaction Design, Visual Design, Design Systems, UX Writing
-          <h3>Timeline:</h3>
-          Januari – April 2024 (8 weeks)
-          <div className="luxbite-description-description">
-            <h3>💡 Vision</h3>
+    <div className="luxbitePage">
+      <div className="luxbite-container">
+        <h1 className="luxbite-title">LuxeBite</h1>
+        <p className="luxbite-subtitle">Elevating Meal Delivery to a Luxury Experience</p>
+
+        <img
+          className="luxbite-hero-img"
+          src={project1}
+          alt="LuxeBite - Premium Meal Delivery Service"
+        />
+
+        <div className="luxbite-content">
+          <h2>Overview</h2>
+          <p>
+            LuxeBite was born from a desire to fill a gap in the market: a luxurious
+            food experience for those seeking something extraordinary in their daily lives.
+            We set out to deliver an exceptional culinary experience straight to the
+            customer's doorstep, seamlessly blending convenience with elegance.
+          </p>
+
+          <h2>Project Details</h2>
+          <div className="project-meta">
+            <div className="meta-item">
+              <h3>Project Type</h3>
+              <p>UX/UI Design, User Research</p>
+            </div>
+            <div className="meta-item">
+              <h3>Role</h3>
+              <p>UX/UI Designer</p>
+            </div>
+            <div className="meta-item">
+              <h3>Tools</h3>
+              <p>Figma, Notion, Miro, Slack</p>
+            </div>
+            <div className="meta-item">
+              <h3>Timeline</h3>
+              <p>January - April 2024 (8 weeks)</p>
+            </div>
           </div>
-          <p>
-            LuxeBite was born out of a desire to create something unique that
-            didn’t exist in the market—a luxurious food experience that caters
-            to those seeking that little extra in their daily lives. We aim to
-            deliver an extraordinary culinary experience straight to the
-            customer’s home, blending convenience with elegance.
-          </p>
-          <img className="ideaMap" src={ideamapLuxebite} alt="ideamap" />
-        </div>
 
-        <div className="project-section">
-          <h3>Purpose (Why)</h3>
-          <p>
-            Our goal was to make every day a little more special by offering
-            luxurious meal boxes that add a touch of gold to the everyday
-            routine. LuxeBite isn’t just about food; it’s about elevating the
-            ordinary to the extraordinary.
-          </p>
-        </div>
+          <h2>Methods & Skills</h2>
+          <div className="skills-grid">
+            <div className="skills-category">
+              <h3>Design Methods</h3>
+              <ul>
+                <li>Design Thinking</li>
+                <li>User Research</li>
+                <li>Wireframing & Prototyping</li>
+                <li>Human-Centered Design</li>
+                <li>How Might We Framework</li>
+              </ul>
+            </div>
+            <div className="skills-category">
+              <h3>UX Skills</h3>
+              <ul>
+                <li>User Journey Mapping</li>
+                <li>Personas Development</li>
+                <li>Lo-fi & Hi-fi Prototyping</li>
+                <li>Usability Testing</li>
+                <li>Information Architecture</li>
+              </ul>
+            </div>
+          </div>
 
-        <div className="project-section">
-          <h3>Target Audience (Who)</h3>
+          <h2>The Vision</h2>
           <p>
-            LuxeBite is designed for the upper-middle class in Stockholm—people
-            who desire a touch of luxury in their daily lives. Our target
-            audience includes:
+            Our goal was to transform everyday moments into something special by offering
+            luxurious meal boxes that add a touch of gold to the ordinary routine.
+            LuxeBite isn't just about food—it's about elevating the mundane to the extraordinary.
           </p>
-          <p>
-            Middle managers looking to impress colleagues. Groups of friends
-            seeking to add a bit of luxury to their week. Influencers aiming to
-            create Instagram-worthy moments.
-          </p>
-        </div>
 
-        <div className="project-section">
-          <h3>User Experience Goals (How)</h3>
-          <p>Our approach is guided by three key principles:</p>
-          <p>
-            Exclusivity: Every aspect of LuxeBite, from the ingredients to the
-            packaging, exudes luxury. Convenience: We ensure a seamless and
-            effortless experience for our customers, from ordering to delivery.
-            Uniqueness: We offer something beyond the ordinary, a product and
-            service that stand out in the market. User Research
-          </p>
-        </div>
+          <img
+            className="luxbite-process-img"
+            src={ideamapLuxebite}
+            alt="LuxeBite Ideation Map"
+          />
 
-        <div className="project-section">
-          <h3>User Research & Market Analysis</h3>
-          <ul>
-            <li>
-              Studied competitors like Svarta Lådan and BetterFeast to identify
-              design trends and gaps.
-            </li>
-            <li>
-              {" "}
-              Conducted user interviews and surveys to define personas and user
-              needs.
-            </li>
-            <li>
-              {" "}
-              Created customer journey maps and behavioral archetypes to guide
-              UX decisions.
-            </li>
+          <h2>Target Audience</h2>
+          <p>
+            LuxeBite is designed for the upper-middle class in Stockholm—individuals
+            who appreciate luxury in their daily lives. Our target audience includes:
+          </p>
+          <ul className="features-list">
+            <li>Middle managers looking to impress colleagues with premium catering</li>
+            <li>Groups of friends seeking to elevate their gatherings</li>
+            <li>Influencers aiming to create Instagram-worthy culinary moments</li>
           </ul>
-        </div>
 
-        <div className="project-section">
-          <h3>User Research</h3>
-          <p>
-            To better understand our audience, we conducted qualitative research
-            involving 18 participants through structured and semi-structured
-            interviews. The insights we gathered led us to identify three
-            distinct customer types:
-          </p>
-          <p>
-            The Indulgent: They desire larger portions, premium ingredients, and
-            little extras in their delivery. The Efficient: They prioritize fast
-            delivery, easy ordering, and convenience in their daily lives. The
-            Showy: They seek a flashy, innovative experience with a personal
-            touch in the delivery process.
-          </p>
-        </div>
-        <div className="project-section">
-          <h3>Wireframing & Prototyping</h3>
-          <p>
-            <ul>
-              <li>
-                Designed wireframes focusing on a premium, modern, and sleek
-                aesthetic.{" "}
-              </li>
+          {/* IMAGE PLACEHOLDER - Add persona or target audience visual */}
+          <div className="image-placeholder">
+            <span>Target Audience Persona Image</span>
+          </div>
 
-              <li>Implemented a “sticky” navbar for seamless navigation.</li>
-              <li>
-                Developed an intuitive, high-converting checkout flow inspired
-                by best practices.
-              </li>
-            </ul>
+          <h2>Design Principles</h2>
+          <div className="principles-grid">
+            <div className="principle-card">
+              <h3>Exclusivity</h3>
+              <p>Every aspect—from ingredients to packaging—exudes luxury and premium quality.</p>
+            </div>
+            <div className="principle-card">
+              <h3>Convenience</h3>
+              <p>Seamless and effortless experience from ordering to delivery.</p>
+            </div>
+            <div className="principle-card">
+              <h3>Uniqueness</h3>
+              <p>A product and service that stands distinctly apart in the market.</p>
+            </div>
+          </div>
+
+          <h2>User Research</h2>
+          <p>
+            To understand our audience deeply, we conducted qualitative research with
+            18 participants through structured and semi-structured interviews. Our insights
+            revealed three distinct customer archetypes:
           </p>
+          <div className="user-types-grid">
+            <div className="user-type-card">
+              <h3>The Indulgent</h3>
+              <p>Desires larger portions, premium ingredients, and delightful extras in every delivery.</p>
+            </div>
+            <div className="user-type-card">
+              <h3>The Efficient</h3>
+              <p>Prioritizes fast delivery, easy ordering, and seamless convenience in daily life.</p>
+            </div>
+            <div className="user-type-card">
+              <h3>The Showy</h3>
+              <p>Seeks a flashy, innovative experience with personalized touches in the delivery process.</p>
+            </div>
+          </div>
+
+          <h2>Market Analysis</h2>
+          <ul className="features-list">
+            <li>Studied competitors like Svarta Lådan and BetterFeast to identify design trends and gaps</li>
+            <li>Conducted user interviews and surveys to define personas and user needs</li>
+            <li>Created customer journey maps and behavioral archetypes to guide UX decisions</li>
+          </ul>
+
+          <h2>Wireframing & Prototyping</h2>
+          <p>
+            Our design process focused on creating a premium, modern, and sleek aesthetic
+            that reflects the luxury positioning of the brand.
+          </p>
+          <ul className="features-list">
+            <li>Designed wireframes with a premium, modern aesthetic</li>
+            <li>Implemented a "sticky" navbar for seamless navigation</li>
+            <li>Developed an intuitive, high-converting checkout flow based on best practices</li>
+          </ul>
+
           <img
-            className="ideaMap"
+            className="luxbite-process-img"
             src={wireframeLuxebite}
-            alt="wireframeLuxebite"
+            alt="LuxeBite Wireframes"
           />
+
           <img
-            className="ideaMap"
+            className="luxbite-process-img"
             src={prototypeLuxebite}
-            alt="prototypeLuxebite"
+            alt="LuxeBite High-Fidelity Prototype"
           />
+
+          <h2>Team Workflow</h2>
+          <p>
+            We began by structuring our weeks, establishing regular meetings, and defining
+            rotating roles including Scrum Master. Using Notion, Figma, Miro, and Slack,
+            we streamlined our collaboration and maintained agile workflows throughout
+            the project.
+          </p>
+          <p>
+            Our initial brainstorming generated numerous ideas, which we narrowed down
+            to two key concepts. After mentor consultation, we focused on the more
+            luxurious meal box concept that best aligned with our vision.
+          </p>
+
+          <h2>My Role</h2>
+          <p>
+            As a UX/UI Designer, I contributed to the entire design process—from initial
+            research and ideation through to wireframing and high-fidelity prototyping.
+            I participated in user interviews, helped synthesize research findings, and
+            collaborated on creating a cohesive visual identity that radiates luxury.
+          </p>
+
+          {/* IMAGE PLACEHOLDER - Add additional prototype screens */}
+          <div className="image-placeholder">
+            <span>Additional Prototype Screens Image</span>
+          </div>
+
+          <button className="luxbite-btn">
+            <a
+              href="https://www.figma.com/proto/0WcU52ESl9ufsiJr8cbURJ/VG-LuxeBite?node-id=0-1&t=yJ5YrCW6cVj5nVBw-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Prototype in Figma
+            </a>
+          </button>
         </div>
-        <div className="project-section">
-          <h3>Project Development and Team Workflow</h3>
-          <p>
-            We kicked off the project by structuring our weeks, setting regular
-            meetings, and defining roles, such as the Scrum Master, which
-            rotates among team members. We utilized tools like Notion, Figma,
-            Miro, and Slack to streamline our work.
-          </p>
-          <p>
-            In our initial brainstorming session, we generated a variety of
-            ideas, eventually narrowing them down to two key concepts. After
-            consulting with a mentor, we decided to focus on the more luxurious
-            concept of meal boxes.
-          </p>
-          <p>
-            We developed our "Why," "How," and Target Audience, focusing on
-            radiating luxury to those who want to add a touch of glamour to
-            their lives. This concept is ideal for middle managers, friend
-            groups, or influencers looking to make a statement.
-          </p>
-        </div>
-      </div>{" "}
+      </div>
     </div>
   );
 }
