@@ -73,7 +73,7 @@ function Project3() {
 
           <button className="portfolio-repo-btn">
             <a
-              href="https://github.com/niloofar-shahsavar/Portfolio"
+              href="https://github.com/niloofar-shahsavar/My-Portfolio"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -77,6 +77,15 @@ function Blog() {
               Visit the Blog
             </a>
           </button>
+          <button className="blog-repo-btn">
+            <a
+              href="https://github.com/niloofar-shahsavar/NiloosBlog"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View on GitHub
+            </a>
+          </button>
         </div>
       </div>
     </div>
@@ -84,3 +93,4 @@ function Blog() {
 }
 
 export default Blog;
+
