@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-.randomStuffPage {
+.blogPage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,20 +11,20 @@
   min-height: 100vh;
 }
 
-.random-first-title {
+.blog-first-title {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-.random-subtitle {
+.blog-subtitle {
   font-size: 20px;
   color: #0e0670;
   opacity: 0.8;
   margin-bottom: 32px;
 }
 
-.randomStuff {
+.blog {
   border-radius: 10px;
   padding: 100px;
   width: 50%;
@@ -34,7 +34,7 @@
   align-items: center;
 }
 
-.random-hero-img {
+.blog-hero-img {
   width: 100%;
   max-width: 600px;
   border-radius: 12px;
@@ -42,11 +42,11 @@
   box-shadow: 0 4px 20px rgba(14, 6, 112, 0.15);
 }
 
-.random-content {
+.blog-content {
   text-align: left;
 }
 
-.random-content h2 {
+.blog-content h2 {
   font-size: 24px;
   font-weight: 600;
   margin-top: 32px;
@@ -54,41 +54,41 @@
   color: #0e0670;
 }
 
-.random-content p {
+.blog-content p {
   line-height: 1.7;
   margin-bottom: 16px;
 }
 
-.random-content .tech-stack {
+.blog-content .tech-stack {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   margin-bottom: 24px;
 }
 
-.random-content .tech-category h3 {
+.blog-content .tech-category h3 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 12px;
 }
 
-.random-content .tech-category ul,
-.random-content .features-list {
+.blog-content .tech-category ul,
+.blog-content .features-list {
   list-style-type: disc;
   padding-left: 20px;
 }
 
-.random-content .tech-category li,
-.random-content .features-list li {
+.blog-content .tech-category li,
+.blog-content .features-list li {
   margin-bottom: 8px;
   line-height: 1.5;
 }
 
-.random-content .features-list {
+.blog-content .features-list {
   margin-bottom: 24px;
 }
 
-.random-repo-btn {
+.blog-repo-btn {
   background-color: #0e0670;
   color: white;
   border-radius: 10px;
@@ -100,49 +100,41 @@
   transition: background-color 0.3s ease;
 }
 
-.random-repo-btn:hover {
+.blog-repo-btn:hover {
   background-color: #1a0a9e;
 }
 
-.random-repo-btn a {
+.blog-repo-btn a {
   color: white;
   text-decoration: none;
 }
 
-.VisitSite {
-  color: white;
-  border-radius: 10px;
-  border-color: #0e0670;
-  padding: 16px 12px;
-  font-weight: 600;
-}
-
 @media only screen and (max-width: 768px) {
-  .randomStuff {
+  .blog {
     margin-top: 250px;
     font-size: 14px;
     padding: 20px;
     width: 85%;
   }
 
-  .random-first-title {
+  .blog-first-title {
     font-size: 26px;
   }
 
-  .random-subtitle {
+  .blog-subtitle {
     font-size: 16px;
   }
 
-  .random-content h2 {
+  .blog-content h2 {
     font-size: 20px;
   }
 
-  .random-content .tech-stack {
+  .blog-content .tech-stack {
     grid-template-columns: 1fr;
     gap: 16px;
   }
 
-  .random-hero-img {
+  .blog-hero-img {
     max-width: 100%;
   }
 }

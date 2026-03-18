@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-.randomStuffPage {
+.portfolioPage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,20 +11,20 @@
   min-height: 100vh;
 }
 
-.random-first-title {
+.portfolio-first-title {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-.random-subtitle {
+.portfolio-subtitle {
   font-size: 20px;
   color: #0e0670;
   opacity: 0.8;
   margin-bottom: 32px;
 }
 
-.randomStuff {
+.portfolio {
   border-radius: 10px;
   padding: 100px;
   width: 50%;
@@ -34,7 +34,7 @@
   align-items: center;
 }
 
-.random-hero-img {
+.portfolio-hero-img {
   width: 100%;
   max-width: 600px;
   border-radius: 12px;
@@ -42,11 +42,11 @@
   box-shadow: 0 4px 20px rgba(14, 6, 112, 0.15);
 }
 
-.random-content {
+.portfolio-content {
   text-align: left;
 }
 
-.random-content h2 {
+.portfolio-content h2 {
   font-size: 24px;
   font-weight: 600;
   margin-top: 32px;
@@ -54,41 +54,41 @@
   color: #0e0670;
 }
 
-.random-content p {
+.portfolio-content p {
   line-height: 1.7;
   margin-bottom: 16px;
 }
 
-.random-content .tech-stack {
+.portfolio-content .tech-stack {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   margin-bottom: 24px;
 }
 
-.random-content .tech-category h3 {
+.portfolio-content .tech-category h3 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 12px;
 }
 
-.random-content .tech-category ul,
-.random-content .features-list {
+.portfolio-content .tech-category ul,
+.portfolio-content .features-list {
   list-style-type: disc;
   padding-left: 20px;
 }
 
-.random-content .tech-category li,
-.random-content .features-list li {
+.portfolio-content .tech-category li,
+.portfolio-content .features-list li {
   margin-bottom: 8px;
   line-height: 1.5;
 }
 
-.random-content .features-list {
+.portfolio-content .features-list {
   margin-bottom: 24px;
 }
 
-.random-repo-btn {
+.portfolio-repo-btn {
   background-color: #0e0670;
   color: white;
   border-radius: 10px;
@@ -100,49 +100,41 @@
   transition: background-color 0.3s ease;
 }
 
-.random-repo-btn:hover {
+.portfolio-repo-btn:hover {
   background-color: #1a0a9e;
 }
 
-.random-repo-btn a {
+.portfolio-repo-btn a {
   color: white;
   text-decoration: none;
 }
 
-.VisitSite {
-  color: white;
-  border-radius: 10px;
-  border-color: #0e0670;
-  padding: 16px 12px;
-  font-weight: 600;
-}
-
 @media only screen and (max-width: 768px) {
-  .randomStuff {
+  .portfolio {
     margin-top: 250px;
     font-size: 14px;
     padding: 20px;
     width: 85%;
   }
 
-  .random-first-title {
+  .portfolio-first-title {
     font-size: 26px;
   }
 
-  .random-subtitle {
+  .portfolio-subtitle {
     font-size: 16px;
   }
 
-  .random-content h2 {
+  .portfolio-content h2 {
     font-size: 20px;
   }
 
-  .random-content .tech-stack {
+  .portfolio-content .tech-stack {
     grid-template-columns: 1fr;
     gap: 16px;
   }
 
-  .random-hero-img {
+  .portfolio-hero-img {
     max-width: 100%;
   }
 }

@@ -199,7 +199,7 @@ function Luxbite() {
 
           <button className="luxbite-btn">
             <a
-              href="https://www.figma.com/proto/0WcU52ESl9ufsiJr8cbURJ/VG-LuxeBite?node-id=0-1&t=yJ5YrCW6cVj5nVBw-1"
+              href="https://www.figma.com/proto/0WcU52ESl9ufsiJr8cbURJ/VG-LuxeBite?node-id=92-2211&t=cczUXpINXzSTaygx-1"
               target="_blank"
               rel="noopener noreferrer"
             >
