@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.surviiPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  color: #0e0670;
+  border-radius: 10px;
+  font-size: 18px;
+  min-height: 100vh;
+}
+
+.survii-first-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.survii-subtitle {
+  font-size: 20px;
+  color: #0e0670;
+  opacity: 0.8;
+  margin-bottom: 32px;
+}
+
+.survii {
+  border-radius: 10px;
+  padding: 100px;
+  width: 50%;
+  margin-top: 200px;
+  color: #0e0670;
+  font: 18px "Outfit", sans-serif;
+  align-items: center;
+}
+
+.survii-hero-img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 20px rgba(14, 6, 112, 0.15);
+}
+
+.survii-content {
+  text-align: left;
+}
+
+.survii-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: #0e0670;
+}
+
+.survii-content p {
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.tech-stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.tech-category h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.tech-category ul,
+.features-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.tech-category li,
+.features-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.features-list {
+  margin-bottom: 24px;
+}
+
+.survii-repo-btn {
+  background-color: #0e0670;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 16px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 24px;
+  transition: background-color 0.3s ease;
+}
+
+.survii-repo-btn:hover {
+  background-color: #1a0a9e;
+}
+
+.survii-repo-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .survii {
+    margin-top: 250px;
+    font-size: 14px;
+    padding: 20px;
+    width: 85%;
+  }
+
+  .survii-first-title {
+    font-size: 26px;
+  }
+
+  .survii-subtitle {
+    font-size: 16px;
+  }
+
+  .survii-content h2 {
+    font-size: 20px;
+  }
+
+  .tech-stack {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .survii-hero-img {
+    max-width: 100%;
+  }
+}

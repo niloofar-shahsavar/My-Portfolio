@@ -15,6 +15,7 @@ import Edaider from "./Pages/Edaider";
 import Blog from "./Pages/Blog";
 import UXProjects from "./Pages/UXProjects";
 import DevProjects from "./Pages/DevProjects";
+import Survii from "./Pages/Survii";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/interaction" element={<InterAction />} />
 
         <Route path="/blog" element={<Blog />} />
+        <Route path="/survii" element={<Survii />} />
         <Route path="/randomStuff" element={<RandomStuff />} />
         <Route path="/project3" element={<Project3 />} />
 

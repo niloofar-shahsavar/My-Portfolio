@@ -163,6 +163,29 @@
   text-decoration: none;
 }
 
+.survii-project {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.survii-title {
+  text-decoration: none;
+}
+
+.survii-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.survii-img:hover {
+  transform: scale(1.1);
+}
+
 .random-stuff-project {
   text-align: center;
   margin-bottom: 20px;
@@ -536,6 +559,7 @@ a:hover {
   .random-stuff-img,
   .myBlog-img,
   .interAction-img,
+  .survii-img,
   .cv-img,
   .aboutme-landingPage {
     transform: none !important;
@@ -548,6 +572,7 @@ a:hover {
   .random-stuff-img:hover,
   .myBlog-img:hover,
   .interAction-img:hover,
+  .survii-img:hover,
   .cv-img:hover,
   .aboutme-landingPage:hover,
   .cv-div:hover,
@@ -577,6 +602,7 @@ a:hover {
   .luxbite-img-landing,
   .fairyTailor-img,
   .random-stuff-img,
+  .survii-img,
   .myBlog-img .HP-appen-img {
     width: 75%;
   }

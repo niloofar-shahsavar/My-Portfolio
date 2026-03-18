@@ -15,6 +15,7 @@ import HPappen from "../assets/Coming-soon.png";
 import Edaider from "../assets/Edaider-logo.jpg";
 import "../Style/Footer.css";
 import blog2 from "../assets/blog.png"
+import survii from "../assets/Survii.png"
 
 const LandingPage = () => {
   const [activeCategory, setActiveCategory] = useState ("dev");
@@ -93,6 +94,19 @@ const isLandingPage = location.pathname === "/";
       <section id="section-work" className="section-projects">
         {activeCategory === "dev" && (
           <>
+        <div className="survii-project">
+          <RouterLink to="/survii">
+            {" "}
+            <img
+              className="survii-img"
+              src={survii}
+              alt="Survii - AI-powered survey application"
+            />
+          </RouterLink>
+          <RouterLink to="/survii" className="survii-title">
+            <p>Survii</p>
+          </RouterLink>
+        </div>
         <div className="random-stuff-project">
           <RouterLink to="/blog">
             {" "}
