@@ -131,15 +131,15 @@ function InterAction() {
             <span>Final Prototype Screens Image</span>
           </div>
 
-          <button className="interAction-btn">
-            <a
-              href="https://www.figma.com/proto/KXEFtu5amIdwGjnVmeKiyv/InterAction-Prototype?node-id=2262-610&t=K82lcjKQ3qd8qTmg-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Prototype in Figma
-            </a>
-          </button>
+          <a
+            href="https://www.figma.com/proto/KXEFtu5amIdwGjnVmeKiyv/InterAction-Prototype?node-id=2690-9817&page-id=2262%3A610&starting-point-node-id=2694%3A9114&t=HVbYLLD3hKeo5mXG-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="interAction-link"
+          >
+            View Prototype in Figma
+            <span className="link-arrow">→</span>
+          </a>
         </div>
       </div>
     </div>

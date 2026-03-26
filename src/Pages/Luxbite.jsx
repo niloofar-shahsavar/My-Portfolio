@@ -197,15 +197,15 @@ function Luxbite() {
             <span>Additional Prototype Screens Image</span>
           </div>
 
-          <button className="luxbite-btn">
-            <a
-              href="https://www.figma.com/proto/0WcU52ESl9ufsiJr8cbURJ/VG-LuxeBite?node-id=92-2211&t=cczUXpINXzSTaygx-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Prototype in Figma
-            </a>
-          </button>
+          <a
+            href="https://www.figma.com/proto/0WcU52ESl9ufsiJr8cbURJ/VG-LuxeBite?node-id=92-2211&t=cczUXpINXzSTaygx-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="luxbite-link"
+          >
+            View Prototype in Figma
+            <span className="link-arrow">→</span>
+          </a>
         </div>
       </div>
     </div>

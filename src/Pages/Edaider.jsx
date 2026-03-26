@@ -176,11 +176,15 @@ const Edaider = () => {
               research findings, methodology, and recommendations are documented
               in detail.
             </p>
-            <button className="edaider-btn">
-              <a href={thesis} target="_blank" rel="noopener noreferrer">
-                View Thesis Document
-              </a>
-            </button>
+            <a
+              href={`${thesis}#page=1`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="edaider-link"
+            >
+              View Thesis Document
+              <span className="link-arrow">→</span>
+            </a>
           </div>
         </div>
       </div>

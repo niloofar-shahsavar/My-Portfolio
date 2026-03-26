@@ -68,24 +68,26 @@ function Blog() {
             implementation and deployment.
           </p>
 
-          <button className="blog-repo-btn">
+          <div className="blog-links">
             <a
               href="https://niloos-blog.netlify.app/login"
               target="_blank"
               rel="noopener noreferrer"
+              className="blog-link"
             >
               Visit the Blog
+              <span className="link-arrow">→</span>
             </a>
-          </button>
-          <button className="blog-repo-btn">
             <a
               href="https://github.com/niloofar-shahsavar/NiloosBlog"
               target="_blank"
               rel="noopener noreferrer"
+              className="blog-link"
             >
               View on GitHub
+              <span className="link-arrow">→</span>
             </a>
-          </button>
+          </div>
         </div>
       </div>
     </div>

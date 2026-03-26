@@ -88,25 +88,36 @@
   margin-bottom: 24px;
 }
 
-.random-repo-btn {
-  background-color: #0e0670;
-  color: white;
-  border-radius: 10px;
-  border: none;
-  padding: 16px 24px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 24px;
-  transition: background-color 0.3s ease;
+.random-links {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  flex-wrap: wrap;
 }
 
-.random-repo-btn:hover {
-  background-color: #1a0a9e;
-}
-
-.random-repo-btn a {
-  color: white;
+.random-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #0e0670;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.random-link:hover {
+  border-bottom-color: #0e0670;
+}
+
+.random-link .link-arrow {
+  transition: transform 0.3s ease;
+}
+
+.random-link:hover .link-arrow {
+  transform: translateX(4px);
 }
 
 .VisitSite {

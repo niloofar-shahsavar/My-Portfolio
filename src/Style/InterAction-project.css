@@ -146,25 +146,30 @@
   font-weight: 500;
 }
 
-.interAction-btn {
-  background-color: #0e0670;
-  color: white;
-  border-radius: 10px;
-  border: none;
-  padding: 16px 24px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 24px;
-  transition: background-color 0.3s ease;
-}
-
-.interAction-btn:hover {
-  background-color: #1a0a9e;
-}
-
-.interAction-btn a {
-  color: white;
+.interAction-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #0e0670;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 32px;
+  padding: 12px 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.interAction-link:hover {
+  border-bottom-color: #0e0670;
+}
+
+.interAction-link .link-arrow {
+  transition: transform 0.3s ease;
+}
+
+.interAction-link:hover .link-arrow {
+  transform: translateX(4px);
 }
 
 @media only screen and (max-width: 768px) {

@@ -71,15 +71,26 @@ function RandomStuff() {
             React, state management, and working effectively in a team environment.
           </p>
 
-          <button className="random-repo-btn">
+          <div className="random-links">
             <a
               href="https://random-stuff-webshop.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
+              className="random-link"
             >
               Visit the Website
+              <span className="link-arrow">→</span>
             </a>
-          </button>
+            <a
+              href="https://github.com/niloofar-shahsavar/random-stuff"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="random-link"
+            >
+              View on GitHub
+              <span className="link-arrow">→</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

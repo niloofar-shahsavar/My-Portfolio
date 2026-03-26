@@ -167,15 +167,15 @@ const HPAppen = () => {
             design, gamification principles, and working within an agile environment.
           </p>
 
-          <button className="hpappen-btn">
-            <a
-              href="https://www.figma.com/your-link-here"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Project in Figma
-            </a>
-          </button>
+          <a
+            href="https://www.figma.com/proto/qN3kQO7mkrNKQC9CvGftX5/Test.1?node-id=1-3371&page-id=0%3A1&starting-point-node-id=1%3A3371&t=T925EOi3Ce0X56Rb-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hpappen-link"
+          >
+            View Project in Figma
+            <span className="link-arrow">→</span>
+          </a>
         </div>
       </div>
     </div>

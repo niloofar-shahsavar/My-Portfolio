@@ -71,15 +71,15 @@ function Project3() {
             the site as I learn new techniques.
           </p>
 
-          <button className="portfolio-repo-btn">
-            <a
-              href="https://github.com/niloofar-shahsavar/My-Portfolio"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View on GitHub
-            </a>
-          </button>
+          <a
+            href="https://github.com/niloofar-shahsavar/My-Portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="portfolio-link"
+          >
+            View on GitHub
+            <span className="link-arrow">→</span>
+          </a>
         </div>
       </div>
     </div>

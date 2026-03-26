@@ -67,15 +67,15 @@ function Survii() {
             creating a user-friendly interface for survey management.
           </p>
 
-          <button className="survii-repo-btn">
-            <a
-              href="https://github.com/niloofar-shahsavar/survey-app/tree/niloo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View on GitHub
-            </a>
-          </button>
+          <a
+            href="https://github.com/niloofar-shahsavar/survey-app/tree/dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="survii-link"
+          >
+            View on GitHub
+            <span className="link-arrow">→</span>
+          </a>
         </div>
       </div>
     </div>
