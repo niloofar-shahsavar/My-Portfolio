@@ -198,6 +198,13 @@
   font-weight: 500;
 }
 
+.HP-links {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
 .hpappen-link {
   display: inline-flex;
   align-items: center;

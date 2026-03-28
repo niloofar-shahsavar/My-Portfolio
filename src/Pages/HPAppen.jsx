@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import "../Style/HPAppen.css";
 import image1 from "../assets/caseStudies/hp-p2.png";
-import image2 from "../assets/caseStudies/hp-p1.png";
+import image2 from "../assets/caseStudies/hp-p1.png"; 
+import image3 from "../assets/caseStudies/laptop1.png";
+
 
 const HPAppen = () => {
   useEffect(() => {
@@ -12,7 +14,9 @@ const HPAppen = () => {
     <div className="hpappenPage">
       <div className="hpappen-container">
         <h1 className="hpappen-title">HP-appen</h1>
-        <p className="hpappen-subtitle">Gamifying Learning for University Admission Success</p>
+        <p className="hpappen-subtitle">
+          Gamifying Learning for University Admission Success
+        </p>
 
         {/* IMAGE PLACEHOLDER - Add hero image of the app or key screens */}
         <div className="image-placeholder hero-placeholder">
@@ -22,11 +26,11 @@ const HPAppen = () => {
         <div className="hpappen-content">
           <h2>Overview</h2>
           <p>
-            HP-appen is a mobile application that helps students prepare for the Swedish
-            university admission exam (Högskoleprovet). During my internship, I focused
-            on improving the app's user experience through redesigned flows and enhanced
-            visual appeal—with a particular emphasis on boosting engagement through
-            gamification elements.
+            HP-appen is a web application that helps students prepare for the
+            Swedish university admission exam (Högskoleprovet). During my
+            internship, I focused on improving the app's user experience through
+            redesigned flows and enhanced visual appeal—with a particular
+            emphasis on boosting engagement through gamification elements.
           </p>
 
           <h2>Project Details</h2>
@@ -61,11 +65,12 @@ const HPAppen = () => {
 
           <h2>The Challenge</h2>
           <p>
-            Students preparing for Sweden's university admission exam need consistent
-            motivation and engagement to succeed. The existing app had potential but
-            lacked the visual polish and gamified elements that could transform
-            studying from a chore into an engaging experience. My mission was to
-            redesign key user flows and enhance the overall visual appeal.
+            Students preparing for Sweden's university admission exam need
+            consistent motivation and engagement to succeed. The existing app
+            had potential but lacked the visual polish and gamified elements
+            that could transform studying from a chore into an engaging
+            experience. My mission was to redesign key user flows and enhance
+            the overall visual appeal.
           </p>
 
           {/* IMAGE PLACEHOLDER - Add before/after or problem visualization */}
@@ -77,15 +82,22 @@ const HPAppen = () => {
           <div className="contributions-grid">
             <div className="contribution-card">
               <h3>Flow Design</h3>
-              <p>Designed new flows for Quests, Factions, Challenges, and Lectures</p>
+              <p>
+                Designed new flows for Quests, Factions, Challenges, and
+                Lectures
+              </p>
             </div>
             <div className="contribution-card">
               <h3>Login & Dashboard</h3>
-              <p>Improved the mobile login experience and dashboard usability</p>
+              <p>
+                Improved the mobile login experience and dashboard usability
+              </p>
             </div>
             <div className="contribution-card">
               <h3>Visual Enhancement</h3>
-              <p>Enhanced visual structure, hierarchy, and UI clarity throughout</p>
+              <p>
+                Enhanced visual structure, hierarchy, and UI clarity throughout
+              </p>
             </div>
             <div className="contribution-card">
               <h3>Accessibility</h3>
@@ -99,10 +111,22 @@ const HPAppen = () => {
             would motivate students to study consistently:
           </p>
           <ul className="features-list">
-            <li><strong>Quests:</strong> Goal-based learning paths with clear progression</li>
-            <li><strong>Factions:</strong> Team-based competition to encourage community</li>
-            <li><strong>Challenges:</strong> Daily and weekly tasks to build study habits</li>
-            <li><strong>Progress Tracking:</strong> Visual indicators of learning achievements</li>
+            <li>
+              <strong>Quests:</strong> Goal-based learning paths with clear
+              progression
+            </li>
+            <li>
+              <strong>Factions:</strong> Team-based competition to encourage
+              community
+            </li>
+            <li>
+              <strong>Challenges:</strong> Daily and weekly tasks to build study
+              habits
+            </li>
+            <li>
+              <strong>Progress Tracking:</strong> Visual indicators of learning
+              achievements
+            </li>
           </ul>
 
           {/* IMAGE PLACEHOLDER - Add gamification UI screens */}
@@ -112,37 +136,47 @@ const HPAppen = () => {
 
           <h2>Process</h2>
           <p>
-            Using Figma for all design work, I collaborated closely with the team
-            through Slack and structured tasks in Notion. The project followed agile
-            design cycles, with regular iterations based on real user feedback.
-            This approach allowed for rapid validation of design decisions and
-            continuous improvement.
+            Using Figma for all design work, I collaborated closely with the
+            team through Slack and structured tasks in Notion. The project
+            followed agile design cycles, with regular iterations based on real
+            user feedback. This approach allowed for rapid validation of design
+            decisions and continuous improvement.
           </p>
 
           <h2>Results & Learnings</h2>
           <div className="results-grid">
             <div className="result-card">
               <h3>8+ Flows</h3>
-              <p>Redesigned user flows with strong user focus and responsive behavior</p>
+              <p>
+                Redesigned user flows with strong user focus and responsive
+                behavior
+              </p>
             </div>
             <div className="result-card">
               <h3>Simplified Journey</h3>
-              <p>New interface streamlined the learning experience and increased clarity</p>
+              <p>
+                New interface streamlined the learning experience and increased
+                clarity
+              </p>
             </div>
             <div className="result-card">
               <h3>Professional Growth</h3>
-              <p>Gained understanding of real product team dynamics and constraints</p>
+              <p>
+                Gained understanding of real product team dynamics and
+                constraints
+              </p>
             </div>
           </div>
           <p>
-            This internship helped me understand how to design with both constraints
-            and creativity, balancing business requirements with user needs in a
-            fast-paced product environment.
+            This internship helped me understand how to design with both
+            constraints and creativity, balancing business requirements with
+            user needs in a fast-paced product environment.
           </p>
 
           <h2>Design Samples</h2>
           <p>
-            Below are examples of the design work I created during my internship:
+            Below are examples of the design work I created during my
+            internship:
           </p>
           <div className="design-samples">
             <div className="sample-image">
@@ -160,22 +194,34 @@ const HPAppen = () => {
 
           <h2>My Role</h2>
           <p>
-            As a UX/UI Design Intern, I was responsible for designing and iterating
-            on multiple user flows within the application. I worked independently
-            on design tasks while collaborating with the product team for feedback
-            and alignment. This experience strengthened my skills in mobile-first
-            design, gamification principles, and working within an agile environment.
+            As a UX/UI Design Intern, I was responsible for designing and
+            iterating on multiple user flows within the application. I worked
+            independently on design tasks while collaborating with the product
+            team for feedback and alignment. This experience strengthened my
+            skills in mobile-first design, gamification principles, and working
+            within an agile environment.
           </p>
 
-          <a
-            href="https://www.figma.com/proto/qN3kQO7mkrNKQC9CvGftX5/Test.1?node-id=1-3371&page-id=0%3A1&starting-point-node-id=1%3A3371&t=T925EOi3Ce0X56Rb-1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hpappen-link"
-          >
-            View Project in Figma
-            <span className="link-arrow">→</span>
-          </a>
+          <div className="HP-links">
+            <a
+              href="https://www.hpappen.se/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hpappen-link"
+            >
+              Visit live
+              <span className="link-arrow">→</span>
+            </a>
+            <a
+              href="https://www.figma.com/proto/qN3kQO7mkrNKQC9CvGftX5/Test.1?node-id=1-3371&page-id=0%3A1&starting-point-node-id=1%3A3371&t=T925EOi3Ce0X56Rb-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hpappen-link"
+            >
+              View Project in Figma
+              <span className="link-arrow">→</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
