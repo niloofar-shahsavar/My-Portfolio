@@ -163,7 +163,7 @@ const isLandingPage = location.pathname === "/";
               alt="LuxeBite project - UX/UI design case study"
             />
           </RouterLink>{" "}
-          <RouterLink to="/luxbite-project" className="luxbite-title">
+          <RouterLink to="/luxbite-project" className="luxbite-title-landing">
             <p>LuxeBite</p>
           </RouterLink>
         </div>
@@ -176,7 +176,7 @@ const isLandingPage = location.pathname === "/";
               alt="InterAction project - UX/UI design case study"
             />
           </RouterLink>
-          <RouterLink to="/interaction" className="interAction-title">
+          <RouterLink to="/interaction" className="interAction-title-landing">
             <p>InterAction</p>
           </RouterLink>
         </div>

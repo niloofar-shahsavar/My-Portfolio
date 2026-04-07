@@ -159,7 +159,7 @@
 .luxbite-img-landing:hover {
   transform: scale(1.1);
 }
-.luxbite-title {
+.luxbite-title-landing {
   text-decoration: none;
 }
 
@@ -241,7 +241,7 @@
   border-radius: 10px;
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.interAction-title {
+.interAction-title-landing {
   text-decoration: none;
 }
 .interAction-img:hover {
