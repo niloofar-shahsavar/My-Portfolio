@@ -23,10 +23,11 @@ function Survii() {
         <div className="survii-content">
           <h2>Overview</h2>
           <p>
-            Survii is an intelligent survey application that leverages AI to create,
-            manage, and analyze surveys efficiently. Built with a modern tech stack
-            combining FastAPI on the backend and React on the frontend, it provides
-            a seamless experience for both survey creators and respondents.
+            Survii is an intelligent survey application that leverages AI to
+            create, manage, and analyze surveys efficiently. Built with a modern
+            tech stack combining FastAPI on the backend and React on the
+            frontend, it provides a seamless experience for both survey creators
+            and respondents.
           </p>
 
           <h2>Tech Stack</h2>
@@ -61,21 +62,34 @@ function Survii() {
 
           <h2>My Role</h2>
           <p>
-            I developed this project as a full-stack application, handling both the
-            FastAPI backend with AI integration and the React frontend. This included
-            designing the API architecture, implementing the AI-powered features, and
-            creating a user-friendly interface for survey management.
+            I developed this project as a full-stack application, handling both
+            the FastAPI backend with AI integration and the React frontend. This
+            included designing the API architecture, implementing the AI-powered
+            features, and creating a user-friendly interface for survey
+            management.
           </p>
 
-          <a
-            href="https://github.com/niloofar-shahsavar/survey-app/tree/dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="survii-link"
-          >
-            View on GitHub
-            <span className="link-arrow">→</span>
-          </a>
+          <div className="blog-links">
+            <a
+              href="https://survey-app-niloofar-shahsavars-projects.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="survii-link"
+            >
+              Visit the product
+              <span className="link-arrow">→</span>
+            </a>
+
+            <a
+              href="https://github.com/niloofar-shahsavar/survey-app/tree/dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="survii-link"
+            >
+              View on GitHub
+              <span className="link-arrow">→</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
