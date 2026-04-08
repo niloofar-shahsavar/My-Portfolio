@@ -78,7 +78,7 @@ function RandomStuff() {
               rel="noopener noreferrer"
               className="random-link"
             >
-              Visit the Website
+              View live project
               <span className="link-arrow">→</span>
             </a>
             <a

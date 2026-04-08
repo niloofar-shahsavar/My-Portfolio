@@ -34,10 +34,10 @@ function Blog() {
             <div className="tech-category">
               <h3>Backend</h3>
               <ul>
-                <li>Node.js - Server-side runtime</li>
-                <li>Express - Web application framework</li>
-                <li>MongoDB - NoSQL database for content storage</li>
-                <li>JWT - Authentication and session management</li>
+                <li>***********************************</li>
+                <li>***********************************</li>
+                <li>***********************************</li>
+                <li>***********************************</li>
               </ul>
             </div>
             <div className="tech-category">
@@ -62,10 +62,7 @@ function Blog() {
 
           <h2>My Role</h2>
           <p>
-            I developed this blog as a personal project to practice full-stack
-            development and have a platform to share my thoughts. I handled
-            everything from backend API design and database modeling to frontend
-            implementation and deployment.
+            ***********************************
           </p>
 
           <div className="blog-links">
@@ -75,7 +72,7 @@ function Blog() {
               rel="noopener noreferrer"
               className="blog-link"
             >
-              Visit the Blog
+              View live project
               <span className="link-arrow">→</span>
             </a>
             <a
