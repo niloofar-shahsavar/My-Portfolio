@@ -76,7 +76,7 @@ function Survii() {
               rel="noopener noreferrer"
               className="survii-link"
             >
-              Visit the product
+              View live project
               <span className="link-arrow">→</span>
             </a>
 
