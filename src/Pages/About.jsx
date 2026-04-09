@@ -16,16 +16,16 @@ function About() {
         <section className="about-intro">
           <h2>Hi, I'm Niloo</h2>
           <p>
-            I'm a developer based in Stockholm with a strong interest in data-driven
-            and design-aware software development. Currently studying AI-focused
-            software development at Nackademin, I combine my background in UX/UI design
-            with technical skills to build solutions that are both functional and user-friendly.
+I'm a developer based in Stockholm with a strong interest in data-driven and design-aware software development. Currently studying AI-focused software development at Nackademin, I combine my background in UX/UI design with technical skills to build solutions that are both functional and user-friendly.
+
+<p> I also have a background in languages, having studied English and Persian, which has shaped my interest in communication, meaning, and how ideas are structured and understood. In many ways, that interest naturally connects to programming. Human languages and programming languages are both built on logic, patterns, structure, and interpretation — and I’ve always been drawn to understanding how they work.</p>
+
+
           </p>
           <p>
-            I enjoy building structured solutions and understanding how systems behave
-            in real-world use. I learn quickly, adapt easily to new technologies, and
-            value clear logic, thoughtful analysis, and practical problem-solving.
-            I see mistakes as an essential part of learning.
+            I have also always enjoyed puzzles, mysteries, board games, and problem-solving. I’m especially interested in things that are not immediately obvious: patterns that need to be recognized, problems that need to be untangled, and systems that need to be understood before they can be improved. That is one of the reasons programming suits me so well. It combines analytical thinking with curiosity and turns complexity into something clear, logical, and useful.
+
+<p>I enjoy building structured solutions and understanding how systems behave in real-world use. I learn quickly, adapt easily to new technologies, and value clear logic, thoughtful analysis, and practical problem-solving. I see mistakes as an essential part of learning.</p>
           </p>
         </section>
 
