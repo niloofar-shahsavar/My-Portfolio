@@ -73,7 +73,7 @@ function RandomStuff() {
 
           <div className="random-links">
             <a
-              href="https://random-stuff-webshop.netlify.app/"
+              href="https://random-stuffs.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="random-link"
