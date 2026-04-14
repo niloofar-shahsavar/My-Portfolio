@@ -81,7 +81,7 @@ function Survii() {
             </a>
 
             <a
-              href="https://github.com/niloofar-shahsavar/survey-app/tree/dev"
+              href="https://github.com/niloofar-shahsavar/survey-app/tree/main"
               target="_blank"
               rel="noopener noreferrer"
               className="survii-link"
