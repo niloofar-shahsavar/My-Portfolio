@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import { useState } from "react";
+import SEO from "../components/SEO";
 import "../Style/Navbar.css";
 import "../Style/LandingPage.css";
 import cvImage from "../assets/CV.png";
@@ -40,6 +41,11 @@ const isLandingPage = location.pathname === "/";
   };
   return (
     <div className="LandingPage">
+      <SEO
+        title="Junior AI Developer & UX/UI Designer"
+        description="Niloofar Shahsavar is a junior AI developer and UX/UI designer based in Stockholm, building data-driven applications with Python, FastAPI, React, and SQL."
+        path="/"
+      />
       <div className="hero-section" id="hero">
         <div className="hero-text-landing">
           <h1 className="firstTitle">Hi there! I’m Niloo</h1>
@@ -58,7 +64,7 @@ const isLandingPage = location.pathname === "/";
           <img
             className="hero-image"
             src={Subjectc}
-            alt="Portrait of Niloofar Shahsavar, UX/UI designer"
+            alt="Portrait of Niloofar Shahsavar, AI Developer and UX/UI Designer"
           />{" "}
         </div>
 
@@ -113,7 +119,7 @@ const isLandingPage = location.pathname === "/";
             <img
               className="random-stuff-img"
               src={blog2}
-              alt="RandomStuff project - UX/UI design case study"
+              alt="Blog - Personal blog platform project"
             />
           </RouterLink>
           <RouterLink to="/randomStuff" className="random-stuff-title">

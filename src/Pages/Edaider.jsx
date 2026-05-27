@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "../Style/Edaider.css";
 import thesis from "../assets/Thesis_Niloofar-Shahsavar_June-2025.pdf";
+import SEO from "../components/SEO";
 
 const Edaider = () => {
   useEffect(() => {
@@ -9,6 +10,11 @@ const Edaider = () => {
 
   return (
     <div className="edaiderPage">
+      <SEO
+        title="EdAider — AI Education UX Research"
+        description="EdAider thesis project: UX research on improving activation and completion in AI education platforms. Published June 2025 by Niloofar Shahsavar."
+        path="/Edaider"
+      />
       <div className="edaider-container">
         <h1 className="edaider-title">EdAider</h1>
         <p className="edaider-subtitle">Improving Activation & Completion in AI Education</p>

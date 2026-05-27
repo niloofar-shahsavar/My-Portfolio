@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import AnimationComponent from "../components/AnimationComponent";
 import "../Style/About.css";
 import React, { useEffect } from "react";
+import SEO from "../components/SEO";
 
 function About() {
   useEffect(() => {
@@ -10,6 +11,11 @@ function About() {
 
   return (
     <div className="aboutPage">
+      <SEO
+        title="About Niloofar Shahsavar"
+        description="AI-focused software developer at Nackademin, Stockholm, with skills in Python, FastAPI, React, SQL, and UX/UI design. Open to junior developer roles."
+        path="/about"
+      />
       <div className="about-container">
         <h1 className="about-title">About Me</h1>
 

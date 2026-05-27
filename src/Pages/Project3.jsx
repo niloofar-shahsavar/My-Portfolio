@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Style/Portfolio.css";
 import portfolioImg from "../assets/Portfolio-landing.png";
+import SEO from "../components/SEO";
 
 function Project3() {
   useEffect(() => {
@@ -10,6 +11,11 @@ function Project3() {
 
   return (
     <div className="portfolioPage">
+      <SEO
+        title="My Portfolio — React & Vite"
+        description="Case study of this portfolio website, built with React, Vite, and Tailwind CSS, deployed on Netlify. Covers design decisions and technical implementation."
+        path="/project3"
+      />
       <div className="portfolio">
         <h1 className="portfolio-first-title">My Portfolio</h1>
         <p className="portfolio-subtitle">Personal Portfolio Website Built with React</p>

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Style/RandomStuff.css";
 import randomStuffImg from "../assets/randomstuff-landing.png";
+import SEO from "../components/SEO";
 
 function RandomStuff() {
   useEffect(() => {
@@ -10,6 +11,11 @@ function RandomStuff() {
 
   return (
     <div className="randomStuffPage">
+      <SEO
+        title="Random Stuff — E-commerce Webshop"
+        description="Full-stack e-commerce webshop with product listing, filtering, pagination, shopping cart, and checkout. Built with React."
+        path="/randomStuff"
+      />
       <div className="randomStuff">
         <h1 className="random-first-title">Random Stuff</h1>
         <p className="random-subtitle">E-commerce Webshop with Full Shopping Flow</p>

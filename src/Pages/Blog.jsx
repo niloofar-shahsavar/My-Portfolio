@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Style/Blog.css";
 import blogImg from "../assets/blog.png";
+import SEO from "../components/SEO";
 
 function Blog() {
   useEffect(() => {
@@ -10,6 +11,11 @@ function Blog() {
 
   return (
     <div className="blogPage">
+      <SEO
+        title="Blog Platform — Personal Project"
+        description="A personal blog platform with user authentication, admin dashboard, and content management. Built with React for a clean, responsive reading experience."
+        path="/blog"
+      />
       <div className="blog">
         <h1 className="blog-first-title">Blog</h1>
         <p className="blog-subtitle">Personal Blog Platform with Authentication</p>

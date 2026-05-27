@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "../Style/HPAppen.css";
+import SEO from "../components/SEO";
 import image1 from "../assets/caseStudies/hp-p2.png";
 import image2 from "../assets/caseStudies/hp-p1.png"; 
 import image3 from "../assets/caseStudies/laptop1.png";
@@ -12,6 +13,11 @@ const HPAppen = () => {
 
   return (
     <div className="hpappenPage">
+      <SEO
+        title="HP-appen — Gamification UX Case Study"
+        description="HP-appen UX case study: gamifying a university exam prep app with Quests, Factions, and Challenges. WCAG-accessible redesign by Niloofar Shahsavar."
+        path="/HPAppen"
+      />
       <div className="hpappen-container">
         <h1 className="hpappen-title">HP-appen</h1>
         <p className="hpappen-subtitle">

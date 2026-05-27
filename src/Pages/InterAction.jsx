@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Style/InterAction-project.css";
 import InterActionVideo from "../assets/InterAction.mp4";
+import SEO from "../components/SEO";
 
 function InterAction() {
   useEffect(() => {
@@ -10,6 +11,11 @@ function InterAction() {
 
   return (
     <div className="interActionPage">
+      <SEO
+        title="InterAction — UX Case Study"
+        description="InterAction UX case study: a mobile app helping immigrant women integrate in Sweden. Research-driven, accessibility-focused, multilingual design."
+        path="/interaction"
+      />
       <div className="interAction-container">
         <h1 className="interAction-title">InterAction</h1>
         <p className="interAction-subtitle">Empowering Immigrant Women Through Digital Integration</p>

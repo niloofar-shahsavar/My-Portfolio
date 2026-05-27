@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Style/Survii.css";
 import surviiImg from "../assets/Survii.png";
+import SEO from "../components/SEO";
 
 function Survii() {
   useEffect(() => {
@@ -10,6 +11,11 @@ function Survii() {
 
   return (
     <div className="surviiPage">
+      <SEO
+        title="Survii — AI-Powered Survey Application"
+        description="Survii is an AI-powered survey app built with FastAPI and React. Features AI question generation, smart response analysis, and real-time tracking."
+        path="/survii"
+      />
       <div className="survii">
         <h1 className="survii-first-title">Survii</h1>
         <p className="survii-subtitle">AI-Powered Survey Application</p>

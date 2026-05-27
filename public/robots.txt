@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://niloofar-shahsavar.netlify.app/sitemap.xml

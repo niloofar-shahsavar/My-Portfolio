@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "../Style/LuxbiteProject.css";
+import SEO from "../components/SEO";
 import project1 from "../assets/luxbite-landing.jpg";
 import ideamapLuxebite from "../assets/caseStudies/ideamap-luxebite.png";
 import wireframeLuxebite from "../assets/caseStudies/wireframe-luxebite.png";
@@ -12,6 +13,11 @@ function Luxbite() {
 
   return (
     <div className="luxbitePage">
+      <SEO
+        title="LuxeBite — UX/UI Case Study"
+        description="LuxeBite UX/UI case study: designing a luxury meal delivery experience. User research, idea mapping, wireframes, and prototypes by Niloofar Shahsavar."
+        path="/luxbite-project"
+      />
       <div className="luxbite-container">
         <h1 className="luxbite-title">LuxeBite</h1>
         <p className="luxbite-subtitle">Elevating Meal Delivery to a Luxury Experience</p>
