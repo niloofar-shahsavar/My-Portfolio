@@ -37,6 +37,7 @@ function Survii() {
             className="survii-video"
             controls
             playsInline
+            muted
           >
             <source src={surviiVideo} type="video/mp4" />
             Your browser does not support the video tag.
