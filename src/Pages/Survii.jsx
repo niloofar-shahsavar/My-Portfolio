@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Style/Survii.css";
 import surviiImg from "../assets/Survii.png";
+import surviiVideo from "../assets/survii.mp4";
 import SEO from "../components/SEO";
 
 function Survii() {
@@ -25,6 +26,22 @@ function Survii() {
           alt="Survii - AI Survey Application"
           className="survii-hero-img"
         />
+
+        <div className="survii-demo">
+          <h2>App Demo</h2>
+          <p className="survii-demo-note">
+            The live server is currently offline — watch the recording below to
+            see the app in action.
+          </p>
+          <video
+            className="survii-video"
+            controls
+            playsInline
+          >
+            <source src={surviiVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
 
         <div className="survii-content">
           <h2>Overview</h2>
